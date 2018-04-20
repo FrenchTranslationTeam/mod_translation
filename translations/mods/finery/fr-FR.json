@@ -1,0 +1,1217 @@
+{
+	"ui": {
+
+	},
+	"entities": {
+		"containers": {
+			"bar_corner_acacia": {
+				"description": "Un meuble haut faite en bois d'acacia.",
+				"display_name": "Meuble haut en acacia",
+				"recipe_name": "Meuble haut en acacia",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_corner_cactus": {
+				"description": "Un meuble haut faite en bois de cactus.",
+				"display_name": "Meuble haut en cactus",
+				"recipe_name": "Meuble haut en cactus",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_corner_juniper": {
+				"description": "Un meuble haut faite en bois de genièvre.",
+				"display_name": "Meuble haut en genièvre",
+				"recipe_name": "Meuble haut en genièvre",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_corner_oak": {
+				"description": "Un meuble haut faite en bois de chêne.",
+				"display_name": "Meuble haut en chêne",
+				"recipe_name": "Meuble haut en chêne",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_corner_palm": {
+				"description": "Un meuble haut faite en bois de palmier.",
+				"display_name": "Meuble haut en palmier",
+				"recipe_name": "Meuble haut en palmier",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_corner_pine": {
+				"description": "Un meuble haut faite en bois de pin.",
+				"display_name": "Meuble haut en pin",
+				"recipe_name": "Meuble haut en pin",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_corner_short_acacia": {
+				"description": "Un court meuble en bois d'acacia.",
+				"display_name": "Court meuble d'acacia",
+				"recipe_name": "Court meuble d'acacia",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bar_corner_short_cactus": {
+				"description": "Un court meuble en bois de cactus.",
+				"display_name": "Court meuble en cactus",
+				"recipe_name": "Court meuble en cactus",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bar_corner_short_juniper": {
+				"description": "Un court meuble en bois de genièvre.",
+				"display_name": "Court meuble en genièvre",
+				"recipe_name": "Court meuble en genièvre",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bar_corner_short_oak": {
+				"description": "Un court meuble en bois de chêne.",
+				"display_name": "Court meuble en chêne",
+				"recipe_name": "Court meuble en chêne",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bar_corner_short_palm": {
+				"description": "Un court meuble en bois de palmier.",
+				"display_name": "Court meuble en palmier",
+				"recipe_name": "Court meuble en palmier",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bar_corner_short_pine": {
+				"description": "Un court meuble en bois de pin.",
+				"display_name": "Court meuble en pin",
+				"recipe_name": "Court meuble en pin",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bar_storage_acacia": {
+				"description": "Un Grand rangement en bois d'acacia.",
+				"display_name": "Grand rangement en Acacia",
+				"recipe_name": "Grand rangement en Acacia",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_storage_cactus": {
+				"description": "Un Grand rangement bois de cactus.",
+				"display_name": "Grand rangement en Cactus",
+				"recipe_name": "Grand rangement en Cactus",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_storage_juniper": {
+				"description": "Un Grand rangement bois de genévrier.",
+				"display_name": "Grand rangement en genévrier",
+				"recipe_name": "Grand rangement en genévrier",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_storage_oak": {
+				"description": "Un Grand rangement bois de chêne.",
+				"display_name": "Grand rangement en chêne",
+				"recipe_name": "Grand rangement en chêne",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_storage_palm": {
+				"description": "Un Grand rangement bois de palmier.",
+				"display_name": "Grand rangement en palmier",
+				"recipe_name": "Grand rangement en palmier",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_storage_pine": {
+				"description": "Un Grand rangement bois de pin.",
+				"display_name": "Grand rangement en pin",
+				"recipe_name": "Grand rangement en pin",
+				"flavor": "Pour entreposer jusqu'à 24 objets."
+			},
+			"bar_storage_short_acacia": {
+				"description": "Un court espace de rangement en bois d'acacia.",
+				"display_name": "Court rangement en acacia",
+				"recipe_name": "Court rangement en acacia",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bar_storage_short_cactus": {
+				"description": "Un court espace de rangement en bois de cactus.",
+				"display_name": "Court rangement en cactus",
+				"recipe_name": "Court rangement en cactus",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bar_storage_short_juniper": {
+				"description": "Un court espace de rangement en bois de genévrier.",
+				"display_name": "Court rangement en genévrier",
+				"recipe_name": "Court rangement en genévrier",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bar_storage_short_oak": {
+				"description": "Un court espace de rangement en bois de chêne.",
+				"display_name": "Court rangement en chêne",
+				"recipe_name": "Court rangement en chêne",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bar_storage_short_palm": {
+				"description": "Un court espace de rangement en bois de palmier.",
+				"display_name": "Court rangement en palmier",
+				"recipe_name": "Court rangement en palmier",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bar_storage_short_pine": {
+				"description": "Un court espace de rangement en bois de pin.",
+				"display_name": "Court rangement en pin",
+				"recipe_name": "Court rangement en pin",
+				"flavor": "Pour entreposer jusqu'à 16 objets."
+			},
+			"bronze_ingot_pile": {
+				"description": "Un tas de 18 lingots en bronze.",
+				"display_name": "Stock de lingots en bronze",
+				"recipe_name": "Stock de lingots en bronze",
+				"flavor": "Un alliage durci."
+			},
+			"copper_ingot_pile": {
+				"description": "Un tas de 18 lingots de cuivre.",
+				"display_name": "Stock de lingots de cuivre",
+				"recipe_name": "Stock de lingots de cuivre",
+				"flavor": "Très conducteur."
+			},
+			"gold_ingot_pile": {
+				"description": "Un tas de 18 lingots d'or.",
+				"display_name": "Stock de lingots d'or",
+				"recipe_name": "Stock de lingots d'or",
+				"flavor": "Donc brillant ... et lourd."
+			},
+			"iron_ingot_pile": {
+				"description": "Un tas de 18 lingots de fer.",
+				"display_name": "Stock de lingots de fer",
+				"recipe_name": "Stock de lingots de fer",
+				"flavor": "Ne pas confondre avec l'ironie."
+			},
+			"silver_ingot_pile": {
+				"description": "Un tas de 18 lingots d'argent.",
+				"display_name": "Stock de lingots d'argent",
+				"recipe_name": "Stock de lingots d'argent",
+				"flavor": "Encore plus conducteur que le cuivre et plus joli aussi."
+			},
+			"steel_ingot_pile": {
+				"description": "Un tas de 18 lingots d'acier.",
+				"display_name": "Réserves de lingot d'acier",
+				"recipe_name": "Réserves de lingot d'acier",
+				"flavor": "Un alliage supérieurement durci."
+			},
+			"tin_ingot_pile": {
+				"description": "Un tas de 18 lingots en étain.",
+				"display_name": "Réserves de lingot en étain",
+				"recipe_name": "Réserves de lingot en étain",
+				"flavor": "Un alliage supérieurement durci"
+			},
+			"hopechest_acacia": {
+				"description": "Une armoire à trousseau en bois d'acacia.",
+				"display_name": "Armoire à trousseau en Acacia",
+				"recipe_name": "Armoire à trousseau en Acacia",
+				"flavor": "Bel endroit pour conserver 16 objets."
+			},
+			"hopechest_cactus": {
+				"description": "Une armoire à trousseau en bois de cactus.",
+				"display_name": "Armoire à trousseau en Cactus",
+				"recipe_name": "Armoire à trousseau en Cactus",
+				"flavor": "Bel endroit pour conserver 16 objets."
+			},
+			"hopechest_juniper": {
+				"description": "Une armoire à trousseau en bois de genièvre.",
+				"display_name": "Armoire à trousseau en Genièvre",
+				"recipe_name": "Armoire à trousseau en Genièvre",
+				"flavor": "C'est plus grand à l'intérieur et peut garder 16 objets."
+			},
+			"hopechest_oak": {
+				"description": "Une armoire à trousseau en bois de chêne.",
+				"display_name": "Armoire à trousseau en Chêne",
+				"recipe_name": "Armoire à trousseau en Chêne",
+				"flavor": "Un endroit court et robuste pour cacher 16 choses."
+			},
+			"hopechest_palm": {
+				"description": "Une armoire à trousseau en bois de palmier.",
+				"display_name": "Armoire à trousseau en palmier",
+				"recipe_name": "Armoire à trousseau en palmier",
+				"flavor": "Plein de couleur et capable de contenir 16 babioles."
+			},
+			"hopechest_pine": {
+				"description": "Une armoire à trousseau en bois de pin.",
+				"display_name": "Armoire à trousseau en pin",
+				"recipe_name": "Armoire à trousseau en pin",
+				"flavor": "Une bonne odeur de bois hivernal et capable de contenir 16 objets."
+			},
+			"log_pile_acacia": {
+				"description": "Un tas de rondins d'acacia.",
+				"display_name": "Tas de rondin d'acacia",
+				"recipe_name": "Tas de rondin d'acacia",
+				"flavor": "Ne les laissez pas prêt du feu."
+			},
+			"log_pile_cactus": {
+				"description": "Un tas de rondins de cactus.",
+				"display_name": "Tas de rondin de cactus",
+				"recipe_name": "Tas de rondin de cactus",
+				"flavor": "Épineux... vous deviez porter des gants."
+			},
+			"log_pile_juniper": {
+				"description": "Un tas de rondins de genièvre.",
+				"display_name": "Tas de rondin de genièvre",
+				"recipe_name": "Tas de rondin de genièvre",
+				"flavor": "Une douce odeurs de bois."
+			},
+			"log_pile_oak": {
+				"description": "Un tas de rondins de cactus.",
+				"display_name": "Tas de rondin de cactus",
+				"recipe_name": "Tas de rondin de cactus",
+				"flavor": "Épineux... vous deviez porter des gants."
+			},
+			"log_pile_palm": {
+				"description": "Un tas de rondins de palmier.",
+				"display_name": "Tas de rondin de palmier",
+				"recipe_name": "Tas de rondin de palmier",
+				"flavor": "Ne les laissez pas prêt du feu."
+			},
+			"log_pile_pine": {
+				"description": "Un tas de rondins de pin.",
+				"display_name": "Tas de rondin de pin",
+				"recipe_name": "Tas de rondin de pin",
+				"flavor": "Ne les laissez pas prêt du feu."
+			},
+			"wardrobe_acacia": {
+				"description": "Une garde-robe faite en bois d'acacia.",
+				"display_name": "Garde-robe d'acacia",
+				"recipe_name": "Garde-robe d'acacia",
+				"flavor": "Bel endroit pour conserver 32 objets."
+			},
+			"wardrobe_cactus": {
+				"description": "Une garde-robe faite en bois de cactus.",
+				"display_name": "Garde-robe en cactus",
+				"recipe_name": "Garde-robe en cactus",
+				"flavor": "Bel endroit pour conserver 32 objets."
+			},
+			"wardrobe_juniper": {
+				"description": "Une garde-robe faite en bois de genièvre.",
+				"display_name": "Garde-robe en genièvre",
+				"recipe_name": "Garde-robe en genièvre",
+				"flavor": "C'est plus grand à l'intérieur et peut garder 32 objets."
+			},
+			"wardrobe_oak": {
+				"description": "Une garde-robe faite en bois de chêne.",
+				"display_name": "Garde-robe en chêne",
+				"recipe_name": "Garde-robe en chêne",
+				"flavor": "Un endroit grand et robuste pour cacher 32 choses."
+			},
+			"wardrobe_palm": {
+				"description": "Une garde-robe faite en bois de palmier.",
+				"display_name": "Garde-robe en palmier",
+				"recipe_name": "Garde-robe en palmier",
+				"flavor": "C'est plus grand à l'intérieur et peut garder 32 objets."
+			},
+			"wardrobe_pine": {
+				"description": "Une garde-robe faite en bois de pin.",
+				"display_name": "Garde-robe en pin",
+				"recipe_name": "Garde-robe en pin",
+				"flavor": "Un endroit grand et robuste pour cacher 32 choses."
+			}
+		},
+		"decoration": {
+			"clay_edger": {
+				"description": "Charmant muret d'argile",
+				"display_name": "Muret d'argile",
+				"recipe_name": "Muret d'argile x9",
+				"flavor": "Permet de délimiter avec du charme et de l'argile"
+			},
+			"clay_edger_full": {
+				"description": "Charmant muret d'argile",
+				"display_name": "Muret d'argile",
+				"recipe_name": "Muret d'argile x9",
+				"flavor": "Permet de délimiter avec du charme et de l'argile"
+			},
+			"clay_old_edger": {
+				"description": "Charmant muret d'argile.",
+				"display_name": "Muret d'argile",
+				"recipe_name": "Muret d'argile x9",
+				"flavor": "Permet de délimiter avec du charme et de l'argile"
+			},
+			"clay_old_edger_full": {
+				"description": "Vieux muret d'argile.",
+				"display_name": "Vieux muret d'argile",
+				"recipe_name": "Vieux muret d'argile x9",
+				"flavor": "Permet de délimiter avec du charme et de l'argile"
+			},
+			"clay_old_paver": {
+				"description": "Vieux pavés d'argile pour donner du charme a vos sols.",
+				"display_name": "Vieux pavés d'argile",
+				"recipe_name": "Vieux pavés d'argile",
+				"flavor": "Décorer les sols avec du charme et de l'argile"
+			},
+			"clay_old_paver_one": {
+				"description": "Vieux pavés d'argile pour donner du charme a vos sols.",
+				"display_name": "Vieux pavés d'argile",
+				"recipe_name": "Vieux pavés d'argile x9",
+				"flavor": "Décorer les sols avec du charme et de l'argile"
+			},
+			"clay_paver": {
+				"description": "Pavés d'argile pour donner du charme a vos sols.",
+				"display_name": "Pavés d'argile",
+				"recipe_name": "Pavés d'argile",
+				"flavor": "Décorer les sols avec du charme et de l'argile"
+			},
+			"clay_paver_one": {
+				"description": "Vieux pavés d'argile.",
+				"display_name": "Vieux pavés d'argile",
+				"recipe_name": "Vieux pavés d'argile x9",
+				"flavor": "Décorer les sols avec du charme et de l'argile"
+			},
+			"clay_tan_edger": {
+				"description": "Muret d'argile ocre pour donner du charme au monde.",
+				"display_name": "Muret d'argile ocre",
+				"recipe_name": "Muret d'argile ocre x9",
+				"flavor": "Permet de délimiter avec du charme et de l'argile"
+			},
+			"clay_tan_edger_full": {
+				"description": "Muret d'argile ocre pour donner du charme au monde.",
+				"display_name": "Muret d'argile ocre",
+				"recipe_name": "Muret d'argile ocre x9",
+				"flavor": "Permet de délimiter avec du charme et de l'argile"
+			},
+			"clay_tan_paver": {
+				"description": "Charmant pavés d'argile ocre.",
+				"display_name": "Pavés d'argile ocre",
+				"recipe_name": "Pavés d'argile ocre",
+				"flavor": "Décorer les sols avec du charme et de l'argile"
+			},
+			"clay_tan_paver_one": {
+				"description": "Charmant pavés d'argile ocre.",
+				"display_name": "Pavés d'argile ocre",
+				"recipe_name": "Pavés d'argile ocre x9",
+				"flavor": "Décorer les sols avec du charme et de l'argile"
+			},
+			"clock_great": {
+				"description": "Une grande horloge.",
+				"display_name": "Grande horloge",
+				"recipe_name": "Grande horloge",
+				"flavor": "Une chose qui donne l'heure."
+			},
+			"clock_great_fine": {
+				"description": "Une grande horloge finement ornée.",
+				"display_name": "Grande horloge ornée",
+				"recipe_name": "Grande horloge ornée",
+				"flavor": "Une chose qui dit l'heure en bien plus ornée."
+			},
+			"clock_wall": {
+				"description": "Une horloge murale suspendue.",
+				"display_name": "Horloge murale",
+				"recipe_name": "Horloge murale",
+				"flavor": "Une chose qui donne l'heure."
+			},
+			"clock_wall_fine": {
+				"description": "Une horloge murale suspendue finement ornée.",
+				"display_name": "Horloge murale ornée",
+				"recipe_name": "Horloge murale ornée",
+				"flavor": "Une chose qui donne l'heure."
+			},
+			"iron_lamppost": {
+				"description": "Grand réverbère en fer.",
+				"display_name": "Réverbère en fer",
+				"recipe_name": "Réverbère en fer",
+				"flavor": "Il répand une lumière chic."
+			},
+			"edger_brownstone": {
+				"description": "Muret en Grès rouge.",
+				"display_name": "Muret en Grès rouge",
+				"recipe_name": "Muret en Grès rouge x9",
+				"flavor": "Rugueux et chic."
+			},
+			"edger_sandstone": {
+				"description": "Muret en Grès.",
+				"display_name": "Muret en Grès",
+				"recipe_name": "Muret en Grès",
+				"flavor": "Rugueux et chic."
+			},
+			"edger_stone": {
+				"description": "Muret en pierre.",
+				"display_name": "Muret en pierre",
+				"recipe_name": "Muret en pierre",
+				"flavor": "Rugueux et chic."
+			},
+			"edger_stone_solid": {
+				"description": "Muret en pierre solide",
+				"display_name": "Muret en pierre solide",
+				"recipe_name": "Muret en pierre solide",
+				"flavor": "Rugueux et chic."
+			},
+			"paver_brownstone": {
+				"description": "Pavés en Grès rouge.",
+				"display_name": "Pavés en Grès rouge",
+				"recipe_name": "Pavés en Grès rouge",
+				"flavor": "Lisse et chic."
+			},
+			"paver_brownstone_one": {
+				"description": "Pavés en Grès rouge.",
+				"display_name": "Pavés en Grès rouge",
+				"recipe_name": "Pavés en Grès rouge x9",
+				"flavor": "Lisse et chic."
+			},
+			"paver_sandstone": {
+				"description": "Pavés en Grès.",
+				"display_name": "Pavés en Grès",
+				"recipe_name": "Pavés en Grès",
+				"flavor": "Lisse et chic."
+			},
+			"paver_sandstone_one": {
+				"description": "Pavés en Grès.",
+				"display_name": "Pavés en Grès",
+				"recipe_name": "Pavés en Grès x9",
+				"flavor": "Lisse et chic."
+			},
+			"paver_stone": {
+				"description": "Pavés de pierre.",
+				"display_name": "Pavés de pierre",
+				"recipe_name": "Pavés de pierre",
+				"flavor": "Lisse et chic."
+			},
+			"paver_stone_one": {
+				"description": "Pavés de pierre.",
+				"display_name": "Pavés de pierre",
+				"recipe_name": "Pavés de pierre x9",
+				"flavor": "Lisse et chic."
+			},
+			"step_brownstone": {
+				"description": "Marche en grès rouge.",
+				"display_name": "Marche en grès rouge",
+				"recipe_name": "Marche en grès rouge",
+				"flavor": "Lisse et chic."
+			},
+			"step_brownstone_one": {
+				"description": "Marche en grès rouge.",
+				"display_name": "Marche en grès rouge",
+				"recipe_name": "Marche en grès rouge x9",
+				"flavor": "Lisse et chic."
+			},
+			"step_darkstone": {
+				"description": "Marche en pierre sombres.",
+				"display_name": "Marche en pierre sombres",
+				"recipe_name": "Marche en pierre sombres",
+				"flavor": "Lisse et chic."
+			},
+			"step_darkstone_one": {
+				"description": "Marche en pierre sombres.",
+				"display_name": "Marche en pierre sombres",
+				"recipe_name": "Marche en pierre sombres x9",
+				"flavor": "Lisse et chic."
+			},
+			"step_redstone": {
+				"description": "Marche en pierre rouge.",
+				"display_name": "Marche en pierre rouge",
+				"recipe_name": "Marche en pierre rouge",
+				"flavor": "Lisse et chic."
+			},
+			"step_redstone_one": {
+				"description": "Marche en pierre rouge.",
+				"display_name": "Marche en pierre rouge",
+				"recipe_name": "Marche en pierre rouge x9",
+				"flavor": "Lisse et chic."
+			},
+			"step_stone": {
+				"description": "Marche en pierre.",
+				"display_name": "Marche en pierre",
+				"recipe_name": "Marche en pierre",
+				"flavor": "Lisse et chic."
+			},
+			"step_stone_one": {
+				"description": "Marche en pierre.",
+				"display_name": "Marche en pierre",
+				"recipe_name": "Marche en pierre x9",
+				"flavor": "Lisse et chic."
+			},
+			"trophy_bow_wall": {
+				"description": "Un arc de recourbe décoratif.",
+				"display_name": "Support d'arc décoratif",
+				"recipe_name": "Support d'arc décoratif",
+				"flavor": "Une pièce de collection agréable."
+			},
+			"trophy_bronzehelm_stand": {
+				"description": "Un casque en bronze.",
+				"display_name": "Support de casque en bronze",
+				"recipe_name": "Support de casque en bronze",
+				"flavor": "Un jolie casque en bronze pour décorer."
+			},
+			"trophy_bronzemail_stand": {
+				"description": "Un ensemble en bronze du courrier.",
+				"display_name": "Support de plastron en bronze",
+				"recipe_name": "Support de plastron en bronze",
+				"flavor": "Bien poli."
+			},
+			"trophy_bronzemail_stand_full": {
+				"description": "Un plein ensemble en bronze du courrier.",
+				"display_name": "Support complet de plastron en bronze",
+				"recipe_name": "Support complet de plastron en bronze",
+				"flavor": "Bien poli et surmonté du casque."
+			},
+			"trophy_claymore_stand": {
+				"description": "Une épée à deux mains affichée.",
+				"display_name": "Trophée d'épée à deux mains",
+				"recipe_name": "Trophée d'épée à deux mains",
+				"flavor": "Une pièce de collection agréable."
+			},
+			"trophy_crude_axe": {
+				"description": "Une hache de trophée affichée.",
+				"display_name": "Trophée de hache brut",
+				"recipe_name": "Trophée de hache brut",
+				"flavor": "Une pièce de collection agréable."
+			},
+			"trophy_crude_mace": {
+				"description": "Un macis de trophée affiché.",
+				"display_name": "Trophée de macis brut",
+				"recipe_name": "Trophée de macis brut",
+				"flavor": "Une pièce de collection agréable et lourde."
+			},
+			"trophy_ironhelm_stand": {
+				"description": "Un casque en fer.",
+				"display_name": "Support de casque en fer",
+				"recipe_name": "Support de casque en fer",
+				"flavor": "Garde des crânes intacts."
+			},
+			"trophy_ironmail_stand": {
+				"description": "Un ensemble en fer du courrier.",
+				"display_name": "Support de plastron en fer",
+				"recipe_name": "Support de plastron en fer",
+				"flavor": "Un étalage impressionnant."
+			},
+			"trophy_ironmail_stand_full": {
+				"description": "Un plein ensemble en fer du courrier.",
+				"display_name": "Support complet de plastron en fer",
+				"recipe_name": "Support complet de plastron en fer",
+				"flavor": "Un étalage très impressionnant surmonté d'un casque."
+			},
+			"trophy_jagged_stand": {
+				"description": "Un fendoir de lutin affiché.",
+				"display_name": "Trophée de fendoir de lutin",
+				"recipe_name": "Trophée de fendoir de lutin",
+				"flavor": "Plus sûr ici."
+			},
+			"trophy_knighthelm_stand": {
+				"description": "Le casque d'un chevalier hautement poli.",
+				"display_name": "Support de casque en argent de chevalier",
+				"recipe_name": "Support de casque en argent de chevalier",
+				"flavor": "Seulement baissé une fois."
+			},
+			"trophy_knightmail_stand": {
+				"description": "Un ensemble en argent du courrier.",
+				"display_name": "Support de plastron en argent",
+				"recipe_name": "Support de plastron en argent",
+				"flavor": "Cela brillant."
+			},
+			"trophy_knightmail_stand_full": {
+				"description": "Un plein ensemble en argent du courrier.",
+				"display_name": "Support complet de plastron en argent",
+				"recipe_name": "Support complet de plastron en argent",
+				"flavor": "Il rougeoie presque."
+			},
+			"trophy_lamp_elite": {
+				"description": "Une lampe faite du casque d'un kolbold élite.",
+				"display_name": "Lampe de Kolbold élite",
+				"recipe_name": "Lampe de Kolbold élite",
+				"flavor": "D'un goût douteux, mais que feriez-vous d'autre avec ?"
+			},
+			"trophy_lamp_general": {
+				"description": "Une lampe faite du casque d'un général kolbold.",
+				"display_name": "Lampe de général Kolbold",
+				"recipe_name": "Lampe de général Kolbold",
+				"flavor": "D'un goût douteux, mais que feriez-vous d'autre avec ?"
+			},
+			"trophy_lamp_master": {
+				"description": "Une lampe faite du casque d'un maître kolbold.",
+				"display_name": "Lampe du maître Kolbold",
+				"recipe_name": "Lampe du maître Kolbold",
+				"flavor": "D'un goût douteux, mais que feriez-vous d'autre avec ?"
+			},
+			"trophy_lamp_scout": {
+				"description": "Une lampe faite d'un casque de kolbold's de boy-scout.",
+				"display_name": "Lampe du boy-scout Kolbold",
+				"recipe_name": "Lampe du boy-scout Kolbold",
+				"flavor": "D'un goût douteux, mais que feriez-vous d'autre avec ?"
+			},
+			"trophy_longsword_stand": {
+				"description": "Une épée longsword affichée.",
+				"display_name": "Trophée de Longsword",
+				"recipe_name": "Trophée de Longsword",
+				"flavor": "Une pièce de collection agréable."
+			},
+			"trophy_ogos_bone_mace": {
+				"description": "Le macis d'os d'Ogo sur l'étalage.",
+				"display_name": "Le trophée de macis d'os d'Ogo",
+				"recipe_name": "Le trophée de macis d'os d'Ogo",
+				"flavor": "Le macis d'Ogo. Il ne le manquera pas."
+			},
+			"trophy_twosword_long_stand": {
+				"description": "Un étalage d'épée impressionnant.",
+				"display_name": "Trophée d'épée puissant",
+				"recipe_name": "Trophée d'épée puissant",
+				"flavor": "Une pièce de collection exceptionnellement agréable."
+			},
+			"trophy_twosword_stand": {
+				"description": "Un ensemble d'épées affichées.",
+				"display_name": "Trophée d'épée jumeau",
+				"recipe_name": "Trophée d'épée jumeau",
+				"flavor": "Une pièce de collection très agréable."
+			},
+			"trophy_wall_elite": {
+				"description": "Le casque d'un kolbold élite affiché.",
+				"display_name": "Étalage de Kolbold élite",
+				"recipe_name": "Étalage de Kolbold élite",
+				"flavor": "Ne touchez pas s'il vous plaît."
+			},
+			"trophy_wall_general": {
+				"description": "Le casque d'un général kolbold affiché.",
+				"display_name": "Étalage de général Kolbold",
+				"recipe_name": "Étalage de général Kolbold",
+				"flavor": "Pas pour le toucher."
+			},
+			"trophy_wall_master": {
+				"description": "Le casque d'un maître kolbold affiché.",
+				"display_name": "Étalage du maître Kolbold",
+				"recipe_name": "Étalage du maître Kolbold",
+				"flavor": "Pas pour le jet."
+			},
+			"trophy_wall_scout": {
+				"description": "Un casque de kolbold's de boy-scout affiché.",
+				"display_name": "Étalage du boy-scout Kolbold",
+				"recipe_name": "Étalage du boy-scout Kolbold",
+				"flavor": "Cela semble lourd."
+			},
+			"wooden_dummy": {
+				"description": "Un mannequin de formation en bois.",
+				"display_name": "Mannequin de bois",
+				"recipe_name": "Mannequin de bois",
+				"flavor": "Un jour vous pourriez être capable de vous y entraîner."
+			}
+		},
+		"furniture": {
+			"arch_backed_chair_acacia": {
+				"description": "Une chaise cathédrale agréable.",
+				"display_name": "Chaise d'acacia de forme cathédrale",
+				"recipe_name": "Chaise d'acacia de forme cathédrale",
+				"flavor": "Une chaise d'acacia de forme cathédrale."
+			},
+			"arch_backed_chair_cactus": {
+				"description": "Une chaise cathédrale agréable.",
+				"display_name": "Chaise de cactus de forme cathédrale",
+				"recipe_name": "Chaise de cactus de forme cathédrale",
+				"flavor": "Une chaise de cactus de forme cathédrale."
+			},
+			"arch_backed_chair_juniper": {
+				"description": "Une chaise cathédrale agréable.",
+				"display_name": "Chaise de genièvre de forme cathédrale",
+				"recipe_name": "Chaise de genièvre de forme cathédrale",
+				"flavor": "Une chaise de genièvre de forme cathédrale."
+			},
+			"arch_backed_chair_palm": {
+				"description": "Une chaise cathédrale agréable.",
+				"display_name": "Chaise de palmier de forme cathédrale",
+				"recipe_name": "Chaise de palmier de forme cathédrale",
+				"flavor": "Une chaise de palmier de forme cathédrale."
+			},
+			"arch_backed_chair_pine": {
+				"description": "Une chaise cathédrale agréable.",
+				"display_name": "Chaise de pin de forme cathédrale",
+				"recipe_name": "Chaise de pin de forme cathédrale",
+				"flavor": "Une chaise de pin regardante importante."
+			},
+			"comfy_bed_acacia": {
+				"description": "Un lit d'acacia confortable.",
+				"display_name": "Lit d'acacia confortable",
+				"recipe_name": "Lit d'acacia confortable",
+				"flavor": "Un lit bien fait fait en bois d'acacia."
+			},
+			"comfy_bed_cactus": {
+				"description": "Un lit de cactus confortable.",
+				"display_name": "Lit de cactus confortable",
+				"recipe_name": "Lit de cactus confortable",
+				"flavor": "Un lit bien fait fait en bois de cactus."
+			},
+			"comfy_bed_juniper": {
+				"description": "Un lit de genièvre confortable.",
+				"display_name": "Lit de genièvre confortable",
+				"recipe_name": "Lit de genièvre confortable",
+				"flavor": "Un lit bien fait fait en bois de genièvre."
+			},
+			"comfy_bed_palm": {
+				"description": "Un lit de palmier confortable.",
+				"display_name": "Lit de palmier confortable",
+				"recipe_name": "Lit de palmier confortable",
+				"flavor": "Un lit bien fait fait en bois de palmier."
+			},
+			"comfy_bed_pine": {
+				"description": "Un lit de pin confortable.",
+				"display_name": "Lit de pin confortable",
+				"recipe_name": "Lit de pin confortable",
+				"flavor": "Un lit bien fait fait en bois de pin."
+			},
+			"comfy_chair_acacia": {
+				"description": "Une chaise d'acacia confortable.",
+				"display_name": "Chaise d'acacia confortable",
+				"recipe_name": "Chaise d'acacia confortable",
+				"flavor": "Une chaise robuste faite en bois d'acacia."
+			},
+			"comfy_chair_cactus": {
+				"description": "Une chaise de cactus confortable.",
+				"display_name": "Chaise de cactus confortable",
+				"recipe_name": "Chaise de cactus confortable",
+				"flavor": "Une chaise robuste faite en bois de cactus."
+			},
+			"comfy_chair_juniper": {
+				"description": "Une chaise de genièvre confortable.",
+				"display_name": "Chaise de genièvre confortable",
+				"recipe_name": "Chaise de genièvre confortable",
+				"flavor": "Une chaise robuste faite en bois de genièvre."
+			},
+			"comfy_chair_palm": {
+				"description": "Une chaise de palmier confortable.",
+				"display_name": "Chaise de palmier confortable",
+				"recipe_name": "Chaise de palmier confortable",
+				"flavor": "Une chaise robuste faite en bois de palmier."
+			},
+			"comfy_chair_pine": {
+				"description": "Une chaise de pin confortable.",
+				"display_name": "Chaise de pin confortable",
+				"recipe_name": "Chaise de pin confortable",
+				"flavor": "Une chaise robuste faite en bois de pin."
+			},
+			"crude_bed_acacia": {
+				"description": "Un lit d'acacia brut.",
+				"display_name": "Lit d'acacia brut",
+				"recipe_name": "Lit d'acacia brut",
+				"flavor": "Mieux que le sommeil sur la terre."
+			},
+			"crude_bed_cactus": {
+				"description": "Un lit de cactus brut.",
+				"display_name": "Lit de cactus brut",
+				"recipe_name": "Lit de cactus brut",
+				"flavor": "Mieux que le sommeil sur la terre."
+			},
+			"crude_bed_juniper": {
+				"description": "Un lit de genièvre brut.",
+				"display_name": "Lit de genièvre brut",
+				"recipe_name": "Lit de genièvre brut",
+				"flavor": "Mieux que le sommeil sur la terre."
+			},
+			"crude_bed_palm": {
+				"description": "Un lit de palmier brut.",
+				"display_name": "Lit de palmier brut",
+				"recipe_name": "Lit de palmier brut",
+				"flavor": "Mieux que le sommeil sur la terre."
+			},
+			"crude_bed_pine": {
+				"description": "Un lit de pin brut.",
+				"display_name": "Lit de pin brut",
+				"recipe_name": "Lit de pin brut",
+				"flavor": "Mieux que le sommeil sur la terre.and it smells nice."
+			},
+			"crude_chair_acacia": {
+				"description": "Une chaise d'acacia brute.",
+				"display_name": "Chaise d'acacia brute",
+				"recipe_name": "Chaise d'acacia brute",
+				"flavor": "Bien au moins c'est robuste."
+			},
+			"crude_chair_cactus": {
+				"description": "Une chaise de cactus brute.",
+				"display_name": "Chaise de cactus brute",
+				"recipe_name": "Chaise de cactus brute",
+				"flavor": "Bien au moins c'est robuste."
+			},
+			"crude_chair_juniper": {
+				"description": "Une chaise de genièvre brute.",
+				"display_name": "Chaise de genièvre brute",
+				"recipe_name": "Chaise de genièvre brute",
+				"flavor": "Bien au moins c'est robuste."
+			},
+			"crude_chair_oak": {
+				"description": "Une chaise de chêne brute.",
+				"display_name": "Chaise de chêne brute",
+				"recipe_name": "Chaise de chêne brute",
+				"flavor": "Bien au moins c'est robuste."
+			},
+			"crude_chair_palm": {
+				"description": "Une chaise de palmier brute.",
+				"display_name": "Chaise de palmier brute",
+				"recipe_name": "Chaise de palmier brute",
+				"flavor": "Bien au moins c'est robuste."
+			},
+			"crude_chair_pine": {
+				"description": "Une chaise de pin brute.",
+				"display_name": "Chaise de pin brute",
+				"recipe_name": "Chaise de pin brute",
+				"flavor": "Bien au moins c'est robuste."
+			},
+			"crude_stool_acacia": {
+				"description": "Un tabouret d'acacia brut.",
+				"display_name": "Tabouret d'acacia brut",
+				"recipe_name": "Tabouret d'acacia brut",
+				"flavor": "Mieux que la séance sur la terre. Mais seulement un peu."
+			},
+			"crude_stool_cactus": {
+				"description": "Un tabouret de cactus brut.",
+				"display_name": "Tabouret de cactus brut",
+				"recipe_name": "Tabouret de cactus brut",
+				"flavor": "Mieux que la séance sur la terre. Mais seulement un peu."
+			},
+			"crude_stool_juniper": {
+				"description": "Un tabouret de genièvre brut.",
+				"display_name": "Tabouret de genièvre brut",
+				"recipe_name": "Tabouret de genièvre brut",
+				"flavor": "Mieux que la séance sur la terre. Mais seulement un peu."
+			},
+			"crude_stool_oak": {
+				"description": "Un tabouret de chêne brut.",
+				"display_name": "Tabouret de chêne brut",
+				"recipe_name": "Tabouret de chêne brut",
+				"flavor": "Mieux que la séance sur la terre. Mais seulement un peu."
+			},
+			"crude_stool_palm": {
+				"description": "Un tabouret de palmier brut.",
+				"display_name": "Tabouret de palmier brut",
+				"recipe_name": "Tabouret de palmier brut",
+				"flavor": "Mieux que la séance sur la terre. Mais seulement un peu."
+			},
+			"crude_stool_pine": {
+				"description": "Un tabouret de pin brut.",
+				"display_name": "Tabouret de pin brut",
+				"recipe_name": "Tabouret de pin brut",
+				"flavor": "Mieux que la séance sur la terre. Mais seulement un peu."
+			},
+			"dining_table_acacia": {
+				"description": "Une table d'acacia ferme.",
+				"display_name": "Table de salle à manger d'acacia",
+				"recipe_name": "Table de salle à manger d'acacia",
+				"flavor": "Une table de salle à manger faite en bois d'acacia."
+			},
+			"dining_table_cactus": {
+				"description": "Une table de cactus ferme.",
+				"display_name": "Table de salle à manger de cactus",
+				"recipe_name": "Table de salle à manger de cactus",
+				"flavor": "Une table de salle à manger faite en bois de cactus."
+			},
+			"dining_table_juniper": {
+				"description": "Une table de genièvre ferme.",
+				"display_name": "Table de salle à manger de genièvre",
+				"recipe_name": "Table de salle à manger de genièvre",
+				"flavor": "Une table de salle à manger faite en bois de genièvre."
+			},
+			"dining_table_palm": {
+				"description": "Une table de palmier ferme.",
+				"display_name": "Table de salle à manger de palmier",
+				"recipe_name": "Table de salle à manger de palmier",
+				"flavor": "Une table de salle à manger faite en bois de palmier."
+			},
+			"dining_table_pine": {
+				"description": "Une table de pin ferme.",
+				"display_name": "Table de salle à manger de pin",
+				"recipe_name": "Table de salle à manger de pin",
+				"flavor": "Une table de salle à manger faite en bois de pin."
+			},
+			"dresser_acacia": {
+				"description": "Une commode d'acacia.",
+				"display_name": "Commode d'acacia",
+				"recipe_name": "Commode d'acacia",
+				"flavor": "Une commode fait en bois d'acacia."
+			},
+			"dresser_cactus": {
+				"description": "Une commode de cactus.",
+				"display_name": "Commode de cactus",
+				"recipe_name": "Commode de cactus",
+				"flavor": "Une commode fait en bois de cactus."
+			},
+			"dresser_juniper": {
+				"description": "Une commode de genièvre.",
+				"display_name": "Commode de genièvre",
+				"recipe_name": "Commode de genièvre",
+				"flavor": "Une commode fait en bois de genièvre."
+			},
+			"dresser_palm": {
+				"description": "Une commode de palmier.",
+				"display_name": "Commode de palmier",
+				"recipe_name": "Commode de palmier",
+				"flavor": "Une commode fait en bois de palmier."
+			},
+			"dresser_pine": {
+				"description": "Une commode de pin.",
+				"display_name": "Commode de pin",
+				"recipe_name": "Commode de pin",
+				"flavor": "Une commode fait en bois de pin."
+			},
+			"fancy_bed_acacia": {
+				"description": "Un lit d'acacia sophistiqué.",
+				"display_name": "Lit d'acacia sophistiqué",
+				"recipe_name": "Lit d'acacia sophistiqué",
+				"flavor": "Un lit uniquement fait à la main fait en bois d'acacia."
+			},
+			"fancy_bed_cactus": {
+				"description": "Un lit de cactus sophistiqué.",
+				"display_name": "Lit de cactus sophistiqué",
+				"recipe_name": "Lit de cactus sophistiqué",
+				"flavor": "Un lit uniquement fait à la main fait en bois de cactus."
+			},
+			"fancy_bed_juniper": {
+				"description": "Un lit de genièvre sophistiqué.",
+				"display_name": "Lit de genièvre sophistiqué",
+				"recipe_name": "Lit de genièvre sophistiqué",
+				"flavor": "Un lit uniquement fait à la main fait en bois de genièvre."
+			},
+			"fancy_bed_palm": {
+				"description": "Un lit de palmier sophistiqué.",
+				"display_name": "Lit de palmier sophistiqué",
+				"recipe_name": "Lit de palmier sophistiqué",
+				"flavor": "Un lit uniquement fait à la main fait en bois de palmier."
+			},
+			"fancy_bed_pine": {
+				"description": "Un lit de pin sophistiqué.",
+				"display_name": "Lit de pin sophistiqué",
+				"recipe_name": "Lit de pin sophistiqué",
+				"flavor": "Un lit uniquement fait à la main fait en bois de pin."
+			},
+			"fancy_chair_acacia": {
+				"description": "Une chaise d'acacia sophistiquée.",
+				"display_name": "Chaise d'acacia sophistiquée",
+				"recipe_name": "Chaise d'acacia sophistiquée",
+				"flavor": "Une chaise uniquement conçue faite en bois d'acacia."
+			},
+			"fancy_chair_cactus": {
+				"description": "Une chaise de cactus sophistiquée.",
+				"display_name": "Chaise de cactus sophistiquée",
+				"recipe_name": "Chaise de cactus sophistiquée",
+				"flavor": "Une chaise uniquement conçue faite en bois de cactus."
+			},
+			"fancy_chair_juniper": {
+				"description": "Une chaise de genièvre sophistiquée.",
+				"display_name": "Chaise de genièvre sophistiquée",
+				"recipe_name": "Chaise de genièvre sophistiquée",
+				"flavor": "Une chaise uniquement conçue faite en bois de genièvre."
+			},
+			"fancy_chair_palm": {
+				"description": "Une chaise de palmier sophistiquée.",
+				"display_name": "Chaise de palmier sophistiquée",
+				"recipe_name": "Chaise de palmier sophistiquée",
+				"flavor": "Une chaise uniquement conçue faite en bois de palmier."
+			},
+			"fancy_chair_pine": {
+				"description": "Une chaise de pin sophistiquée.",
+				"display_name": "Chaise de pin sophistiquée",
+				"recipe_name": "Chaise de pin sophistiquée",
+				"flavor": "Une chaise uniquement conçue faite en bois de pin."
+			},
+			"fancy_table_acacia": {
+				"description": "Une table d'acacia ferme.",
+				"display_name": "Table d'imagination d'acacia",
+				"recipe_name": "Table d'imagination d'acacia",
+				"flavor": "Une table distincte faite en bois d'acacia."
+			},
+			"fancy_table_cactus": {
+				"description": "Une table de cactus ferme.",
+				"display_name": "Table d'imagination de cactus",
+				"recipe_name": "Table d'imagination de cactus",
+				"flavor": "Une table distincte faite en bois de cactus."
+			},
+			"fancy_table_juniper": {
+				"description": "Une table de genièvre ferme.",
+				"display_name": "Table d'imagination de genièvre",
+				"recipe_name": "Table d'imagination de genièvre",
+				"flavor": "Une table distincte faite en bois de genièvre."
+			},
+			"fancy_table_palm": {
+				"description": "Une table de palmier ferme.",
+				"display_name": "Table d'imagination de palmier",
+				"recipe_name": "Table d'imagination de palmier",
+				"flavor": "Une table distincte faite en bois de palmier."
+			},
+			"fancy_table_pine": {
+				"description": "Une table de pin ferme.",
+				"display_name": "Table sophistiquée de pin",
+				"recipe_name": "Table sophistiquée de pin",
+				"flavor": "Une table distincte faite en bois de pin."
+			},
+			"park_bench_acacia": {
+				"description": "Un acacia pittoresque gare le banc.",
+				"display_name": "Banc d'Acacia Park",
+				"recipe_name": "Banc d'Acacia Park",
+				"flavor": "Un banc de parc fait en bois d'acacia."
+			},
+			"park_bench_cactus": {
+				"description": "Un cactus pittoresque gare le banc.",
+				"display_name": "Banc de Cactus Park",
+				"recipe_name": "Banc de Cactus Park",
+				"flavor": "Un banc de parc fait en bois de cactus."
+			},
+			"park_bench_juniper": {
+				"description": "Un banc de parc de genévrier pittoresque.",
+				"display_name": "Banc de Juniper Park",
+				"recipe_name": "Banc de Juniper Park",
+				"flavor": "Un banc de parc en bois de genévrier."
+			},
+			"park_bench_palm": {
+				"description": "Un banc de palmier pittoresque.",
+				"display_name": "Banc de palmier Park",
+				"recipe_name": "Banc de palmier Park",
+				"flavor": "Un banc de parc en bois de palmier."
+			},
+			"park_bench_pine": {
+				"description": "Un banc de parc de pin pittoresque.",
+				"display_name": "Banc de Pine Park",
+				"recipe_name": "Banc de Pine Park",
+				"flavor": "Un banc de parc en bois de pin."
+			},
+			"simple_acacia_chair": {
+				"description": "Une chaise d'acacia bien conçue.",
+				"display_name": "Chaise simple Acacia",
+				"recipe_name": "Chaise simple Acacia",
+				"flavor": "A stylish and comfortable chair.."
+			},
+			"simple_cactus_chair": {
+				"description": "Une chaise de cactus bien conçue.",
+				"display_name": "Chaise simple de cactus",
+				"recipe_name": "Chaise simple de cactus",
+				"flavor": "A stylish and comfortable chair.."
+			},
+			"simple_juniper_chair": {
+				"description": "Une chaise de genévrier bien conçue.",
+				"display_name": "Chaise de Juniper simple",
+				"recipe_name": "Chaise de Juniper simple",
+				"flavor": "A stylish and comfortable chair.."
+			},
+			"simple_palm_chair": {
+				"description": "Une chaise de palmier bien conçue.",
+				"display_name": "Simple palmier Chair",
+				"recipe_name": "Simple palmier Chair",
+				"flavor": "A stylish and comfortable chair.."
+			},
+			"simple_pine_chair": {
+				"description": "Une chaise de pin bien conçue.",
+				"display_name": "Chaise simple en pin",
+				"recipe_name": "Chaise simple en pin",
+				"flavor": "A stylish and comfortable chair.."
+			},
+			"stone_bench_nice": {
+				"description": "Banc en pierre lourde de belle qualité.",
+				"display_name": "Banc en pierre fine",
+				"recipe_name": "Banc en pierre fine",
+				"flavor": "Un bon ascenseur pour deux personnes."
+			},
+			"stone_chair_nice": {
+				"description": "Chaise en pierre lourde de belle qualité.",
+				"display_name": "Chaise en pierre fine",
+				"recipe_name": "Chaise en pierre fine",
+				"flavor": "Un bon ascenseur pour deux personnes.chair."
+			},
+			"stone_table_nice": {
+				"description": "Table en pierre lourde de belle qualité.",
+				"display_name": "Table en pierre fine",
+				"recipe_name": "Table en pierre fine",
+				"flavor": "Une table élévatrice de une à quatre personnes."
+			},
+			"table_for_one_acacia": {
+				"description": "Une petite table d'acacia.",
+				"display_name": "Petite table d'acacia",
+				"recipe_name": "Petite table d'acacia",
+				"flavor": "Une petite table d'acacia."
+			},
+			"table_for_one_cactus": {
+				"description": "Une petite table de cactus.",
+				"display_name": "Petite table de cactus",
+				"recipe_name": "Petite table de cactus",
+				"flavor": "Une petite table de cactus."
+			},
+			"table_for_one_juniper": {
+				"description": "Une petite table de genévrier.",
+				"display_name": "Petite table de genévrier",
+				"recipe_name": "Petite table de genévrier",
+				"flavor": "Une petite table de genévrier."
+			},
+			"table_for_one_palm": {
+				"description": "Une petite table de palmier.",
+				"display_name": "Petite table de palmier",
+				"recipe_name": "Petite table de palmier",
+				"flavor": "Une petite table de palmier."
+			},
+			"table_for_one_pine": {
+				"description": "Une petite table en pin.",
+				"display_name": "Petite table de pin",
+				"recipe_name": "Petite table de pin",
+				"flavor": "Une petite table en pin."
+			},
+			"trophy_stand_oak": {
+				"description": "Un petit stand de trophée en chêne.",
+				"display_name": "Petit Support de trophée en chêne",
+				"recipe_name": "Petit Support de trophée en chêne",
+				"flavor": "Un endroit pour afficher de belles choses."
+			},
+			"trophy_stand_oak_fine": {
+				"description": "Un petit trophée de chêne bien conçu.",
+				"display_name": "Petit Support de trophée en chêne ouvragé",
+				"recipe_name": "Petit Support de trophée en chêne ouvragé",
+				"flavor": "Un endroit bien conçu pour exposer des choses plus agréables."
+			},
+			"trophy_stand_oak_wide": {
+				"description": "Un large stand de trophée en chêne.",
+				"display_name": "Large Support de trophée en chêne",
+				"recipe_name": "Large Support de trophée en chêne",
+				"flavor": "Plus d'espace pour afficher de belles choses."
+			},
+			"trophy_stand_oak_wide_fine": {
+				"description": "Un large Support de trophée en chêne bien conçu.",
+				"display_name": "Large Support de trophée en chêne ouvragé",
+				"recipe_name": "Large Support de trophée en chêne ouvragé",
+				"flavor": "Plus d'espace pour afficher des choses plus agréables."
+			},
+			"writing_desk_acacia": {
+				"description": "Bureau d'écriture en acacia.",
+				"display_name": "Bureau d'écriture Acacia",
+				"recipe_name": "Bureau d'écriture Acacia",
+				"flavor": "Un bureau d'acacia."
+			},
+			"writing_desk_cactus": {
+				"description": "Bureau d'écriture en cactus.",
+				"display_name": "Bureau de Cactus",
+				"recipe_name": "Bureau de Cactus",
+				"flavor": "Un bureau de cactus."
+			},
+			"writing_desk_juniper": {
+				"description": "Bureau d'écriture en genévrier.",
+				"display_name": "Bureau d'écriture en genévrier",
+				"recipe_name": "Bureau d'écriture en genévrier",
+				"flavor": "Un bureau en genévrier."
+			},
+			"writing_desk_palm": {
+				"description": "Bureau d'écriture en palmier",
+				"display_name": "Bureau d'écriture en palmier",
+				"recipe_name": "Bureau d'écriture en palmier",
+				"flavor": "Un bureau en palmier."
+			},
+			"writing_desk_pine": {
+				"description": "Bureau d'écriture en pin",
+				"display_name": "Bureau d'écriture en pin",
+				"recipe_name": "Bureau d'écriture en pin",
+				"flavor": "Un bureau en pin."
+			}
+		}
+	},
+	"jobs": {
+		"blacksmith": {
+		},
+		"carpenter": {
+			"recipes": {
+				"storage_cabinet_name": "Armoires de rangement",
+				"trophy_name": "Trophées",
+				"acacia_furniture_name": "Meubles d'Acacia",
+				"cactus_furniture_name": "Meubles en cactus",
+				"juniper_furniture_name": "Meubles en genévrier",
+				"oak_furniture_name": "Meubles en chêne",
+				"palm_furniture_name": "Meubles en palmier",
+				"pine_furniture_name": "Meubles en pin",
+			}
+		},
+		"cook": {
+		},
+		"engineer": {
+		},
+		"herbalist": {
+		},
+		"mason": {
+			"recipes": {
+				"landscaping_name": "Aménagement paysager"
+			}
+		},
+		"potter": {
+			"recipes": {
+				"landscaping_name": "Aménagement paysager"
+			}
+		},
+		"weaver": {
+		},
+	}
+}

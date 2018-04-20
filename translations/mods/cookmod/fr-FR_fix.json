@@ -1,0 +1,12 @@
+{
+   "ui": {
+      "game": {
+         "entities": {
+            "item_categories": {
+               "drink": "Boisson",
+               "quest_items": "Objets de quêtes"
+            }
+         }
+      }
+   }
+}

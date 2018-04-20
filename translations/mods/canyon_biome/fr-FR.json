@@ -1,0 +1,44 @@
+{
+	"data": {
+		"biome": {
+			"canyon": {
+				"display_name": "Canyon",
+				"description": "Gouffres étroits avec des parois escarpées, traversé par des cours d'eau sinueux",
+				"random_location_names": {
+					"000": " Mont Tonnerre",
+					"001": " Murs Orageux",
+					"002": " Montagnes Écarlates",
+					"003": " Nid d'aigle"
+				}
+			}
+		}
+	},
+	"entities":{
+		"decoration":{
+			"bones":{
+				"display_name":"Os",
+				"description":"Autres fois un animal, maintenant destiné à retourner à la terre."
+			},
+			"skull":{
+				"display_name":"Crâne",
+				"description":"Ancienne protection du centre névralgique d'un animal"
+			}
+		}
+	},
+	"ui":{
+ 		"shell":{
+ 			"select_settlement":{
+ 				"terrain_codes":{
+ 					"mountains_9": "Sommet de la montagne",
+ 					"mountains_10": "Sommet de la montagne",
+ 					"mountains_11": "Sommet de la montagne",
+ 					"mountains_12": "Sommet de la montagne",
+ 					"mountains_13": "Sommet de la montagne",
+ 					"mountains_14": "Sommet de la montagne",
+ 					"mountains_15": "Sommet de la montagne",
+ 					"mountains_16": "Sommet de la montagne"
+ 				}
+ 			}
+ 		}
+ 	}
+}

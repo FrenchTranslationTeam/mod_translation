@@ -1,0 +1,18 @@
+ {
+ 	"ui":{
+ 		"shell":{
+ 			"select_settlement":{
+ 				"terrain_codes":{
+ 					"mountains_9": "Sommet de la montagne",
+ 					"mountains_10": "Sommet de la montagne",
+ 					"mountains_11": "Sommet de la montagne",
+ 					"mountains_12": "Sommet de la montagne",
+ 					"mountains_13": "Sommet de la montagne",
+ 					"mountains_14": "Sommet de la montagne",
+ 					"mountains_15": "Sommet de la montagne",
+ 					"mountains_16": "Sommet de la montagne"
+ 				}
+ 			}
+ 		}
+ 	}
+ }

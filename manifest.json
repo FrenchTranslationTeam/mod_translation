@@ -1,0 +1,37 @@
+{
+	"info" : {
+		"name" : "French Comunity's mod translation",
+		"namespace" : "fr_mod_translation",
+		"version" : 3,
+		"default_locale" : "fr-FR",
+		"steam_file_id" : "1366095797",
+		"client_only" : true
+	},
+	"ui": {
+		"js": [
+			"file(ui/root/js/loadLocales.js)"
+		]
+	},
+	"aliases" : {
+	},
+	"mixintos" : {
+        "stonehearth/locales/fr-FR.json": "file(translations/mods/cookmod/fr-FR_fix.json)",
+        "stonehearth/locales/fr-FR.json": "file(translations/mods/canyon_biome/remaining_terrain_codes.json)"
+	},
+	"overrides" : {		
+		"cookmod/locales/fr-FR.json": "file(translations/mods/cookmod/fr-FR.json)",
+		"cookmod/locales/fr-FR_fix.json": "file(translations/mods/cookmod/fr-FR_fix.json)",
+		
+		"settlementdecor/locales/fr-FR.json": "file(translations/mods/settlementdecor/fr-FR.json)",
+		
+		"armis_maximus/locales/fr-FR.json": "file(translations/mods/armis_maximus/fr-FR.json)",
+		
+		"finery/locales/fr-FR.json": "file(translations/mods/finery/fr-FR.json)",
+		
+		"canyon_biome/locales/fr-FR.json": "file(translations/mods/canyon_biome/fr-FR.json)"
+	},
+	"components" : {
+	},
+	"controllers" : {
+	}
+}

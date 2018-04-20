@@ -1,0 +1,790 @@
+{
+   "ui": { },
+   "entities": {
+      "armor": {
+         "archer_leather_hood_black": {
+            "description": "Capuche d'Archer noir",
+            "display_name": "Capuche d'Archer noir en cuir",
+            "recipe_name": "Capuche en cuir noir d'Archer",
+            "flavor": "Comme la nuit, en plus sombre"
+         },
+         "archer_leather_vest_black": {
+            "description": "Armure d'Archer noir",
+            "display_name": "Armure de cuir d'Archer noir",
+            "recipe_name": "Ensemble gilet et capuche en cuir noir pour archer",
+            "flavor": "Comme la nuit, en plus sombre"
+         },
+         "archer_leather_hood_blue": {
+            "description": "Capuche d'archer bleu foncé",
+            "display_name": "Capuche d'archer en cuir bleu",
+            "recipe_name": "Capuche en cuir bleu d'Archer",
+            "flavor": "Comme la nuit."
+         },
+         "archer_leather_vest_blue": {
+            "description": "Armure d'archer bleu foncé.",
+            "display_name": "Armure de cuir bleu archer",
+            "recipe_name": "Ensemble gilet et capuche en cuir bleu d'Archer",
+            "flavor": "Comme la nuit."
+         },
+         "archer_leather_hood_green": {
+            "description": "Capuche d'archer vert foncé.",
+            "display_name": "Capuche en cuir vert archer",
+            "recipe_name": "Capuche en cuir vert d'Archer",
+            "flavor": "Super boisé."
+         },
+         "archer_leather_vest_green": {
+            "description": "Armure d'archer vert foncé.",
+            "display_name": "Armure de cuir d'archer vert",
+            "recipe_name": "Ensemble gilet et capuche en cuir vert d'Archer",
+            "flavor": "Super boisé."
+         },
+         "archer_leather_hood_red": {
+            "description": "Capuche d'archer rouge foncé.",
+            "display_name": "Capuche en cuir de l'archer rouge",
+            "recipe_name": "Capuche en cuir rouge d'Archer",
+            "flavor": "Probablement pas tout ce furtif mais très cool."
+         },
+         "archer_leather_vest_red": {
+            "description": "Armure d'archer rouge foncé.",
+            "display_name": "Armure de cuir rouge archer",
+            "recipe_name": "Ensemble gilet et capuche en cuir rouge Archer",
+            "flavor": "Probablement pas tout ce furtif mais très cool."
+         },
+         "archer_leather_hood_white": {
+            "description": "Le capuchon de l'archer blanc.",
+            "display_name": "Capuche en cuir d'Archer blanc",
+            "recipe_name": "Capuche en cuir blanc d'Archer",
+            "flavor": " Cool sous le soleil."
+         },
+         "archer_leather_vest_white": {
+            "description": "L'armure de l'archer blanc.",
+            "display_name": "Armure de cuir d'archer blanc",
+            "recipe_name": "Ensemble gilet et capuche en cuir blanc Archer",
+            "flavor": "Cool sous le soleil."
+         },
+         "blade_offhand": {
+            "description": "La défense désinvolte de la lame.",
+            "display_name": "Disque de la lame",
+            "recipe_name": "Ensemble gilet et capuche en cuir blanc Archer",
+            "flavor": "Cool sous le soleil."
+         },
+         "blade_talisman": {
+            "description": "La défense désinvolte de la lame.",
+            "display_name": "Talisman de lame",
+            "recipe_name": "Utilisé pour promouvoir une lame",
+            "flavor": "Stab, poignarder, poignarder."
+         },
+         "bronze_breastplate_black": {
+            "description": "Plastron en bronze noir.",
+            "display_name": "Cuirasse en bronze noir",
+            "recipe_name": "Cuirasse noire en bronze",
+            "flavor": "Protection robuste contre les essais de la nature."
+         },
+         "bronze_breastplate_green": {
+            "description": "Plastron en bronze vert.",
+            "display_name": "Cuirasse en bronze vert",
+            "recipe_name": "Cuirasse en bronze vert",
+            "flavor": "Protection robuste contre les essais de la nature."
+         },
+         "bronze_breastplate_red": {
+            "description": "Plastron en bronze rouge.",
+            "display_name": "Cuirasse en bronze rouge",
+            "recipe_name": "Plastron rouge en bronze",
+            "flavor": "Protection robuste contre les essais de la nature."
+         },
+         "bronze_breastplate_white": {
+            "description": "Plastron en bronze blanc.",
+            "display_name": "Cuirasse en bronze blanc",
+            "recipe_name": "Cuirasse blanche en bronze",
+            "flavor": "Protection robuste contre les essais de la nature."
+         },
+         "bronze_helm_black": {
+            "description": "Casque en bronze noir.",
+            "display_name": "Casque en bronze noir",
+            "recipe_name": "Casque noir en bronze",
+            "flavor": "Protection de la tête robuste contre les essais de la nature."
+         },
+         "bronze_helm_green": {
+            "description": "Casque de bronze vert.",
+            "display_name": "Casque en bronze vert",
+            "recipe_name": "Casque vert bronze",
+            "flavor": "Protection de la tête robuste contre les essais de la nature."
+         },
+         "bronze_helm_red": {
+            "description": "Casque en bronze rouge.",
+            "display_name": "Casque rouge en bronze",
+            "recipe_name": "Casque rouge en bronze",
+            "flavor": "Protection de la tête robuste contre les essais de la nature."
+         },
+         "bronze_helm_white": {
+            "description": "Casque en bronze blanc.",
+            "display_name": "Casque en bronze blanc",
+            "recipe_name": "Casque blanc en bronze",
+            "flavor": "Protection de la tête robuste contre les essais de la nature."
+         },
+         "cleric_outfit_black": {
+            "description": "Tenue de clerc noir.",
+            "display_name": "Tenue de clerc noir",
+            "recipe_name": "Tenue de clerc noir",
+            "flavor": "Guérit!"
+         },
+         "cleric_outfit_blue": {
+            "description": "Tenue de clerc bleu.",
+            "display_name": "Tenue de clerc bleu",
+            "recipe_name": "Tenue de clerc bleu",
+            "flavor": "Guérit!"
+         },
+         "cleric_outfit_green": {
+            "description": "Tenue de clerc vert.",
+            "display_name": "Tenue de clerc vert",
+            "recipe_name": "Tenue de clerc vert",
+            "flavor": "Guérit!"
+         },
+         "cleric_outfit_red": {
+            "description": "Tenue de clerc rouge.",
+            "display_name": "Tenue de clerc rouge",
+            "recipe_name": "Tenue de clerc rouge",
+            "flavor": "Guérit!"
+         },
+         "cleric_outfit_white": {
+            "description": "Tenue de clerc blanc.",
+            "display_name": "Tenue de clerc blanc",
+            "recipe_name": "Tenue de clerc blanc",
+            "flavor": "Guérit!"
+         },
+         "cleric_padded_vest_black": {
+            "description": "Un gilet de clerc rembourré noir.",
+            "display_name": "Gilet rembourré noir",
+            "recipe_name": "Gilet noir rembourré de Clerc",
+            "flavor": "Une bénédiction en noir."
+         },
+         "cleric_padded_vest_blue": {
+            "description": "Un gilet de clerc rembourré bleu.",
+            "display_name": "Gilet de Clerc rembourré bleu",
+            "recipe_name": "Gilet rembourré bleu clerc",
+            "flavor": "Une bénédiction en bleu."
+         },
+         "cleric_padded_vest_green": {
+            "description": "Un gilet de clerc rembourré vert.",
+            "display_name": "Gilet de Clerc rembourré vert",
+            "recipe_name": "Gilet vert rembourré de Clerc",
+            "flavor": "Une bénédiction en vert."
+         },
+         "cleric_padded_vest_red": {
+            "description": "Un gilet de clerc rembourré rouge.",
+            "display_name": "Gilet de Clerc rouge rembourré",
+            "recipe_name": "Gilet rouge rembourré de Clerc",
+            "flavor": "Une bénédiction en rouge."
+         },
+         "cleric_padded_vest_white": {
+            "description": "Un gilet de clerc rembourré blanc.",
+            "display_name": "Gilet de Clerc rembourré blanc",
+            "recipe_name": "Gilet blanc rembourré de clerc",
+            "flavor": "Une bénédiction en blanc."
+         },
+         "cloth_padded_helmet_black": {
+            "description": "Casque rembourré noir.",
+            "display_name": "Casque rembourré noir",
+            "recipe_name": "Casque noir rembourré",
+            "flavor": "Protége légèrement mieux la tête que rien."
+         },
+         "cloth_padded_helmet_green": {
+            "description": "Casque rembourré vert.",
+            "display_name": "Casque rembourré vert",
+            "recipe_name": "Casque vert rembourré",
+            "flavor": "Protége légèrement mieux la tête que rien."
+         },
+         "cloth_padded_helmet_red": {
+            "description": "Casque rembourré rouge.",
+            "display_name": "Casque rembourré rouge",
+            "recipe_name": "Casque rouge rembourré",
+            "flavor": "Protége légèrement mieux la tête que rien."
+         },
+         "cloth_padded_helmet_white": {
+            "description": "Casque rembourré blanc.",
+            "display_name": "Casque rembourré blanc",
+            "recipe_name": "Casque blanc rembourré",
+            "flavor": "Protége légèrement mieux la tête que rien."
+         },
+         "cloth_padded_vest_black": {
+            "description": "Gilet matelassé noir.",
+            "display_name": "Gilet rembourré noir",
+            "recipe_name": "Gilet noir rembourré",
+            "flavor": "Légèrement plus de protection que rien."
+         },
+         "cloth_padded_vest_green": {
+            "description": "Gilet matelassé vert.",
+            "display_name": "Gilet rembourré vert",
+            "recipe_name": "Gilet vert rembourré",
+            "flavor": "Légèrement plus de protection que rien."
+         },
+         "cloth_padded_vest_red": {
+            "description": "Gilet rembourré rouge.",
+            "display_name": "Gilet rembourré rouge",
+            "recipe_name": "Gilet rouge rembourré",
+            "flavor": "Légèrement plus de protection que rien."
+         },
+         "cloth_padded_vest_white": {
+            "description": "Gilet matelassé blanc.",
+            "display_name": "Gilet rembourré blanc",
+            "recipe_name": "Gilet blanc rembourré",
+            "flavor": "Légèrement plus de protection que rien."
+         },
+         "iron_helm_black": {
+            "description": "Casque de fer noir.",
+            "display_name": "Casque de fer noir",
+            "recipe_name": "Casque de fer noir",
+            "flavor": "Un casque de fer ou un pot dans des circonstances difficiles."
+         },
+         "iron_helm_green": {
+            "description": "Casque de fer vert.",
+            "display_name": "Casque de fer vert",
+            "recipe_name": "Casque de fer vert",
+            "flavor": "Un casque de fer ou un pot dans des circonstances difficiles."
+         },
+         "iron_helm_red": {
+            "description": "Casque de fer rouge.",
+            "display_name": "Casque de fer rouge",
+            "recipe_name": "Casque de fer rouge",
+            "flavor": "Un casque de fer ou un pot dans des circonstances difficiles."
+         },
+         "iron_helm_white": {
+            "description": "Casque de fer blanc.",
+            "display_name": "Casque de fer blanc",
+            "recipe_name": "Casque de fer blanc",
+            "flavor": "Un casque de fer ou un pot dans des circonstances difficiles."
+         },
+         "iron_mail_black": {
+            "description": "Cotte de mailles de fer noir.",
+            "display_name": "Cotte de mailles de fer noir",
+            "recipe_name": "Cotte de mailles de fer noir",
+            "flavor": "Lourd et bruyant."
+         },
+         "iron_mail_black_fine": {
+            "description": "Cotte de mailles de fer noir fin.",
+            "display_name": "Cotte de mailles fine de fer noir",
+            "recipe_name": "Cotte de mailles fine de fer noir",
+            "flavor": "Lourd et bruyant."
+         },
+         "iron_mail_green": {
+            "description": "Cotte de mailles de fer vert.",
+            "display_name": "Cotte de mailles de fer vert",
+            "recipe_name": "Cotte de mailles de fer vert",
+            "flavor": "Lourd et bruyant."
+         },
+         "iron_mail_red": {
+            "description": "Cotte de mailles de fer rouge.",
+            "display_name": "Cotte de mailles de fer rouge",
+            "recipe_name": "Cotte de mailles de fer rouge",
+            "flavor": "Lourd et bruyant."
+         },
+         "iron_mail_white": {
+            "description": "Cotte de mailles de fer blanc.",
+            "display_name": "Cotte de mailles de fer blanc",
+            "recipe_name": "Cotte de mailles blanc de fer",
+            "flavor": "Lourd et bruyant."
+         },
+         "iron_mail_white_fine": {
+            "description": "Cotte de mailles fine de fer blanc.",
+            "display_name": "Cotte de mailles fine de fer blanc",
+            "recipe_name": "Cotte de mailles fine blanc de fer",
+            "flavor": "Lourd et bruyant."
+         },
+         "iron_shield_black": {
+            "description": "Bouclier en fer armé noir.",
+            "display_name": "Bouclier noir de fer",
+            "recipe_name": "Bouclier noir de fer",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "iron_shield_blue": {
+            "description": "Bouclier de fer blasonné bleu.",
+            "display_name": "Bouclier bleu de fer",
+            "recipe_name": "Bouclier bleu de fer",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "iron_shield_green": {
+            "description": "Bouclier de fer armé vert.",
+            "display_name": "Bouclier vert fer",
+            "recipe_name": "Bouclier vert fer",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "iron_shield_red": {
+            "description": "Bouclier de fer armé rouge.",
+            "display_name": "Bouclier rouge de fer",
+            "recipe_name": "Bouclier rouge de fer",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "iron_shield_white": {
+            "description": "Bouclier de fer blasonné blanc.",
+            "display_name": "Bouclier blanc de fer",
+            "recipe_name": "Bouclier blanc de fer",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "leather_helmet_black": {
+            "description": "Casque en cuir noir.",
+            "display_name": "Casque en cuir noir",
+            "recipe_name": "Casque en cuir noir",
+            "flavor": "Ça sent comme une vieille botte."
+         },
+         "leather_helmet_green": {
+            "description": "Casque en cuir vert.",
+            "display_name": "Casque en cuir vert",
+            "recipe_name": "Casque en cuir vert",
+            "flavor": "Ça sent comme une vieille botte."
+         },
+         "leather_helmet_red": {
+            "description": "Casque en cuir rouge.",
+            "display_name": "Casque en cuir rouge",
+            "recipe_name": "Casque en cuir rouge",
+            "flavor": "Ça sent comme une vieille botte."
+         },
+         "leather_helmet_white": {
+            "description": "Casque en cuir blanc.",
+            "display_name": "Casque en cuir blanc",
+            "recipe_name": "Casque en cuir blanc",
+            "flavor": "Ça sent comme une vieille botte."
+         },
+         "leather_vest_black": {
+            "description": "Gilet en cuir noir.",
+            "display_name": "Gilet en cuir noir",
+            "recipe_name": "Gilet en cuir noir",
+            "flavor": "Toujours mieux que rien !"
+         },
+         "leather_vest_green": {
+            "description": "Gilet en cuir vert.",
+            "display_name": "Gilet en cuir vert",
+            "recipe_name": "Gilet en cuir vert",
+            "flavor": "Toujours mieux que rien !"
+         },
+         "leather_vest_red": {
+            "description": "Gilet en cuir rouge.",
+            "display_name": "Gilet en cuir rouge",
+            "recipe_name": "Gilet en cuir rouge",
+            "flavor": "Toujours mieux que rien !"
+         },
+         "leather_vest_white": {
+            "description": "Gilet en cuir blanc.",
+            "display_name": "Gilet en cuir blanc",
+            "recipe_name": "Gilet en cuir blanc",
+            "flavor": "Toujours mieux que rien !"
+         },
+         "main_gauche": {
+            "description": "Une lame défensive plus robuste.",
+            "display_name": "Main-Gauche",
+            "recipe_name": "Main-Gauche",
+            "flavor": "Littéralement mieux que la main gauche."
+         },
+         "silver_helmet_black": {
+            "description": "Casque argenté noir.",
+            "display_name": "Casque argenté noir",
+            "recipe_name": "Casque noir argenté",
+            "flavor": "Élégant et cool?"
+         },
+         "silver_helmet_blue": {
+            "description": "Casque argenté bleu.",
+            "display_name": "Casque argenté bleu",
+            "recipe_name": "Casque bleu argenté",
+            "flavor": "Attendez c'est argent ou bleu?"
+         },
+         "silver_helmet_green": {
+            "description": "Casque vert argenté.",
+            "display_name": "Casque argenté vert",
+            "recipe_name": "Casque vert argenté",
+            "flavor": "Attendez c'est argent ou vert?"
+         },
+         "silver_helmet_white": {
+            "description": "Casque blanc argenté.",
+            "display_name": "Casque blanc argenté",
+            "recipe_name": "Casque en argent blanc",
+            "flavor": "Attendez c'est argent ou blanc?"
+         },
+         "silver_mail_black": {
+            "description": "Cotte de mailles noir en argent.",
+            "display_name": "Cotte de mailles noir en argent",
+            "recipe_name": "Cotte de mailles noir en argent",
+            "flavor": "Certains des meilleurs vêtements défensifs à la mode. En noir."
+         },
+         "silver_mail_black_fine": {
+            "description": "Cotte de mailles fine argenté noir.",
+            "display_name": "Cotte de mailles argenté noir fin",
+            "recipe_name": "Cotte de mailles noir argenté fin",
+            "flavor": "Le meilleur en tenue défensive à la mode. En noir."
+         },
+         "silver_mail_blue": {
+            "description": "Cotte de mailles bleu en argent.",
+            "display_name": "Cotte de mailles bleu en argent",
+            "recipe_name": "Cotte de mailles bleu en argent",
+            "flavor": "Certains des meilleurs vêtements défensifs à la mode. En bleu."
+         },
+         "silver_mail_green": {
+            "description": "Cotte de mailles vert en argent.",
+            "display_name": "Cotte de mailles vert en argent",
+            "recipe_name": "Cotte de mailles vert en argent",
+            "flavor": "Certains des meilleurs vêtements défensifs à la mode. En vert."
+         },
+         "silver_mail_white": {
+            "description": "Cotte de mailles blanc argenté.",
+            "display_name": "Cotte de mailles blanc argenté",
+            "recipe_name": "Cotte de mailles blanc argenté",
+            "flavor": "Certains des meilleurs vêtements défensifs à la mode. En blanc."
+         },
+         "silver_mail_white_fine": {
+            "description": "Cotte de mailles fine blanc argenté.",
+            "display_name": "Cotte de mailles fine blanc argenté",
+            "recipe_name": "Cotte de mailles fine blanc argenté",
+            "flavor": "Le meilleur en tenue défensive à la mode. En blanc."
+         },
+         "steel_helmet_black": {
+            "description": "Casque en acier noir.",
+            "display_name": "Casque en acier noir",
+            "recipe_name": "Casque noir en acier",
+            "flavor": "Casque très lourd et cher."
+         },
+         "steel_helmet_blue": {
+            "description": "Casque en acier bleu.",
+            "display_name": "Casque en acier bleu",
+            "recipe_name": "Casque bleu en acier",
+            "flavor": "Casque très lourd et cher."
+         },
+         "steel_helmet_green": {
+            "description": "Casque en acier vert.",
+            "display_name": "Casque en acier vert",
+            "recipe_name": "Casque vert en acier",
+            "flavor": "Casque très lourd et cher."
+         },
+         "steel_helmet_white": {
+            "description": "Casque en acier blanc.",
+            "display_name": "Casque en acier blanc",
+            "recipe_name": "Casque blanc en acier",
+            "flavor": "Casque très lourd et cher."
+         },
+         "steel_mail_black": {
+            "description": "Cotte de mailles noir en acier.",
+            "display_name": "Cotte de mailles noir en acier",
+            "recipe_name": "Cotte de mailles noir en acier",
+            "flavor": "Super durable et super lourd."
+         },
+         "steel_mail_blue": {
+            "description": "Cotte de mailles bleu en acier.",
+            "display_name": "Cotte de mailles bleu en acier",
+            "recipe_name": "Cotte de mailles bleu en acier",
+            "flavor": "Super durable et super lourd."
+         },
+         "steel_mail_green": {
+            "description": "Cotte de mailles vert en acier.",
+            "display_name": "Cotte de mailles vert en acier",
+            "recipe_name": "Cotte de mailles vert en acier",
+            "flavor": "Super durable et super lourd."
+         },
+         "steel_mail_white": {
+            "description": "Cotte de mailles blanc en acier.",
+            "display_name": "Cotte de mailles blanc en acier",
+            "recipe_name": "Cotte de mailles blanc en acier",
+            "flavor": "Super durable et super lourd."
+         },
+         "steel_shield_black": {
+            "description": "Bouclier en fer armé noir.",
+            "display_name": "Bouclier noir en acier",
+            "recipe_name": "Bouclier noir en acier",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "steel_shield_blue": {
+            "description": "Bouclier de fer blasonné bleu.",
+            "display_name": "Bouclier bleu en acier",
+            "recipe_name": "Bouclier bleu en acier",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "steel_shield_green": {
+            "description": "Bouclier de fer armé vert.",
+            "display_name": "Bouclier vert en acier",
+            "recipe_name": "Bouclier vert en acier",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "steel_shield_red": {
+            "description": "Bouclier de fer armé rouge.",
+            "display_name": "Bouclier rouge en acier",
+            "recipe_name": "Bouclier rouge en acier",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "steel_shield_white": {
+            "description": "Bouclier de fer blasonné blanc.",
+            "display_name": "Bouclier blanc en acier",
+            "recipe_name": "Bouclier blanc en acier",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "wooden_shield_black": {
+            "description": "Bouclier en fer armé noir.",
+            "display_name": "Bouclier noir en bois",
+            "recipe_name": "Bouclier noir en bois",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "wooden_shield_blue": {
+            "description": "Bouclier de fer blasonné bleu.",
+            "display_name": "Bouclier bleu en bois",
+            "recipe_name": "Bouclier bleu en bois",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "wooden_shield_green": {
+            "description": "Bouclier de fer armé vert.",
+            "display_name": "Bouclier vert en bois",
+            "recipe_name": "Bouclier vert en bois",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "wooden_shield_red": {
+            "description": "Bouclier de fer armé rouge.",
+            "display_name": "Bouclier rouge en bois",
+            "recipe_name": "Bouclier rouge en bois",
+            "flavor": "Un bouclier de fer blasonné."
+         },
+         "wooden_shield_white": {
+            "description": "Bouclier de fer blasonné blanc.",
+            "display_name": "Bouclier blanc en bois",
+            "recipe_name": "Bouclier blanc en bois",
+            "flavor": "Un bouclier de fer blasonné."
+         }
+      },
+      "refined": {
+         "tonic_bonding": {
+            "description": "Un agent de liaison pour l'argile.",
+            "display_name": "Tonique de collage",
+            "recipe_name": "Tonique de collage",
+            "flavor": "Eh bien, ça sent horriblement mauvais.",
+            "bulletin_title": ""
+         },
+         "tonic_hardening": {
+            "description": "Un agent durcissant pour l'argile.",
+            "display_name": "Tonique de durcissement",
+            "recipe_name": "Tonique de durcissement",
+            "flavor": "Pas si rance mais NE PAS boire."
+         },
+         "tonic_imbuing": {
+            "description": "Un agent pour imprégner l'argile avec des propriétés spéciales.",
+            "display_name": "Imbuing Tonique",
+            "recipe_name": "Imbuing Tonique",
+            "flavor": "Sérieusement agréable à regarder."
+         }
+      },
+      "weapons": {
+         "ahlspiess": {
+            "description": "Ahlspiess type de lance.",
+            "display_name": "Lance Ahlspiess",
+            "recipe_name": "Lance Ahlspiess",
+            "flavor": "Tellement pointu."
+         },
+         "ghameh": {
+            "description": "Ghameh épée courte.",
+            "display_name": "Ghameh épée courte",
+            "recipe_name": "Ghameh épée courte",
+            "flavor": "Court, droit et mortel."
+         },
+         "khopesh": {
+            "description": "Un khopesh de bronze.",
+            "display_name": "Khopesh de bronze",
+            "recipe_name": "Khopesh de bronze",
+            "flavor": "Effrayant pour le blé et les ennemis."
+         },
+         "kilij": {
+            "description": "Un kilij incurvé longue épée.",
+            "display_name": "Kilij Long Épée",
+            "recipe_name": "Kilij Long Épée",
+            "flavor": "Comme un boomerang mais pas pour lancer."
+         },
+         "kriegsmesser": {
+            "description": "Un kriegsmesser à deux mains.",
+            "display_name": "Kriegsmesser Épée à deux mains",
+            "recipe_name": "Kriegsmesser Épée à deux mains",
+            "flavor": "Effrayant au-delà de toute croyance."
+         },
+         "kriegsmesser_fine": {
+            "description": "Un bon kriegsmesser à deux mains.",
+            "display_name": "Fine Kriegsmesser Épée à deux mains",
+            "recipe_name": "Fine Kriegsmesser Épée à deux mains",
+            "flavor": "Encore plus terrifiant."
+         },
+         "macuahuitl": {
+            "description": "Macuahuitl d'argile Club.",
+            "display_name": "Macuahuitl d'argile",
+            "recipe_name": "Macuahuitl d'argile",
+            "flavor": "Arme lourde et tranchante faite d'argile durcie. A le potentiel de ralentir un ennemi."
+         },
+         "naue": {
+            "description": "Épée Naue de bronze.",
+            "display_name": "Naue en bronze",
+            "recipe_name": "Naue en bronze",
+            "flavor": "Arme à poignard courte et shiney."
+         },
+         "prismatic_blade": {
+            "description": "Lame prismatique en argile.",
+            "display_name": "Lame prismatique en argile",
+            "recipe_name": "Lame prismatique en argile",
+            "flavor": "Argile imprégnée aussi tranchante que l'acier. A le potentiel de ralentir un ennemi."
+         },
+         "prismatic_claymore": {
+            "description": "Claymore prismatique en argile.",
+            "display_name": "Claymore prismatique en argile",
+            "recipe_name": "Claymore prismatique en argile",
+            "flavor": "Plus d'argile imbibée, aussi tranchante que l'acier. A le potentiel de ralentir un ennemi."
+         },
+         "ringspatha": {
+            "description": "Épée Longue Spatha avec un anneau",
+            "display_name": "Épée Longue Anneau-Spatha",
+            "recipe_name": "Épée Longue Anneau-Spatha",
+            "flavor": "Spatha avec un anneau ... pour s'accrocher aux choses."
+         },
+         "scimitar": {
+            "description": "Cimeterre à deux mains.",
+            "display_name": "Épée à deux mains Scimitar",
+            "recipe_name": "Épée à deux mains Scimitar",
+            "flavor": "Beau et net."
+         },
+         "scimitar_fine": {
+            "description": "Cimeterre à deux mains.",
+            "display_name": "Fine épée à deux mains Scimitar ",
+            "recipe_name": "Fine épée à deux mains Scimitar ",
+            "flavor": "Encore plus belle et tout aussi nette."
+         },
+         "seax": {
+            "description": "Epée courte Seax.",
+            "display_name": "Epée courte Seax",
+            "recipe_name": "Epée courte Seax",
+            "flavor": "Un couperet comme une épée poignarde."
+         },
+         "sovnya": {
+            "description": "Lance Sovnya.",
+            "display_name": "Lance Sovnya",
+            "recipe_name": "Lance Sovnya",
+            "flavor": "Idéal pour éloigner les gobelins."
+         },
+         "turk_bow": {
+            "display_name": "Arc recourbé",
+            "description": "Courbé pour des coups plus rapides et plus forts",
+            "recipe_name": "Arc recourbé",
+            "flavor": "Idéal pour éloigner les gobelins.from a distance."
+         },
+         "warclub": {
+            "description": "Club de guerre d'argile.",
+            "display_name": "Warclub d'argile",
+            "recipe_name": "Warclub d'argile",
+            "flavor": "Club de guerre en argile collé. A le potentiel de ralentir un ennemi."
+         },
+         "warmace": {
+            "description": "Masse de guerre en argile.",
+            "display_name": "Masse de guerre d'argile",
+            "recipe_name": "Masse de guerre d'argile",
+            "flavor": "Masse de guerre en argile durcie. A le potentiel de ralentir un ennemi."
+         },
+         "war_bow": {
+            "display_name": "Arc recurve gris",
+            "description": "Courbé pour des coups plus rapides et plus forts",
+            "recipe_name": "Arc recourbé gris",
+            "flavor": "Idéal pour éloigner les gobelins.from a distance."
+         }
+      }
+   },
+   "jobs": {
+      "blacksmith": {
+         "recipes": {
+            "black_name": "Armure noire",
+            "blue_name": "Armure bleue",
+            "green_name": "Armure verte",
+            "red_name": "Armure rouge",
+            "white_name": "Armure blanche",
+            "yellow_name": "Armure jaune"
+         }
+      },
+      "blade": {
+         "blade_outfit": {
+            "display_name": "Armure de la Lame",
+            "description": "Armure durcie portée par un spécialiste des lames."
+         },
+         "blade_description": {
+            "display_name": "Lame",
+            "description": "Un combattant défensif axé sur la protection des alliés contre le mal avec une paire de lames.",
+            "requirements": "Fabriqué par Potter",
+            "level_1_data": {
+               "perk_000_name": "Fortifier",
+               "perk_001_name": "Réduction des dégâts Rang 1",
+               "perk_000_description": "Augmente l'Endurance, le Courage et attire l'attention des monstres.",
+               "perk_001_description": "La lame gagne une défense supplémentaire de 5% de l'équipement."
+            },
+            "level_4_data": {
+               "perk_000_name": "Réduction des dégâts Rang 2",
+               "perk_000_description": "La lame gagne 10% d'armure supplémentaire de l'équipement."
+            },
+            "level_3_data": {
+               "perk_000_name": "Fortifier (Rank 2)",
+               "perk_000_description": "L'endurance et le courage ont beaucoup augmenté."
+            },
+            "level_5_data": {
+               "perk_000_name": "Présence inspirante",
+               "perk_000_description": "La lame augmente le courage de tout le monde autour."
+            },
+            "level_2_data": {
+               "perk_000_name": "Crier",
+               "perk_000_description": "La lame intimide l'adversaire, attirant l'attention des ennemis proches.",
+               "perk_001_name": "Zélé",
+               "perk_001_description": "La lame charge dans la bataille avec la vitesse."
+            },
+            "level_6_data": {
+               "perk_000_name": "Corne du héros",
+               "perk_000_description": "La lame sonne comme une corne de combat, attirant l'attention des ennemis proches et lointains."
+            }
+         },
+         "blade_buffs": {
+            "defense_1_buff": {
+               "display_name": "Défense en hausse de 5%",
+               "description": "La défense gagnée de l'équipement a augmenté de 5%."
+            },
+            "defense_2_buff": {
+               "display_name": "Défense jusqu'à 10%",
+               "description": "La défense gagnée de l'équipement a augmenté de 10%."
+            },
+            "health_1_buff": {
+               "display_name": "Fortifier",
+               "description": "La lame devient plus menaçante pour les ennemis, attirant leur attention au combat. Ils obtiennent également un bonus de santé et d'endurance pour suivre."
+            },
+            "health_2_buff": {
+               "display_name": "Fortifier (Rank 2)",
+               "description": "Plus rapide, plus furieux."
+            },
+            "courage_aura_buff": {
+               "display_name": "Présence inspirante",
+               "description": "La lame augmente le courage de tout le monde autour."
+            },
+            "courage_aura_effect_buff": {
+               "display_name": "Inspiré",
+               "description": "Le courage a augmenté grâce à la présence d'une lame."
+            }
+         },
+         "blade_helm": {
+            "display_name": "Heaume de lame",
+            "description": "Enjeu standard de harnais imprégné pour toutes les lames."
+         }
+      },
+      "herbalist": {
+         "recipes": {
+            "mixes_name": "Mélanges"
+         }
+      },
+      "potter": {
+         "recipes": {
+            "weapons_name": "Armes",
+            "offhands_name": "Armes Désinvolte",
+            "blade_offhand_recipe": {
+               "recipe_name": "Lame Désinvolte",
+               "description": "Requis pour promouvoir un hearthling en &quot;Lame&quot;."
+            }
+         }
+      },
+      "weaver": {
+         "recipes": {
+            "black_name": "Armure noire",
+            "blue_name": "Armure bleue",
+            "green_name": "Armure verte",
+            "red_name": "Armure rouge",
+            "white_name": "Armure blanche",
+            "yellow_name": "Armure jaune"
+         }
+      }
+   }
+}

@@ -1,0 +1,751 @@
+{
+   "ui": {
+      "game": {
+         "entities": {
+            "dehydration_notification": "[name(i18n_data.citizen)] a très soif !"
+         },
+         "common": {
+            "bye": "Rucher. Vérifier !"
+         },
+         "zones_mode": {
+            "pasture": {
+               "yak_pasture_name": "Pâturage de Yaks",
+               "yak_pasture_description": "Les yaks produisent du lait et de la viande, deux ingrédients précieux en cuisine.",
+               "pig_pen_name": "Porcherie",
+               "pig_pen_description": "Les porcs peuvent être récoltés pour la viande, et vont déterrer les truffes."
+            },
+            "stockpile": {
+               "filters": {
+                  "tooltip_quest_items": "Objets de quêtes",
+                  "tooltip_drink_containers": "Boissons"
+               }
+            }
+         }
+      },
+      "data": {
+         "constants": {
+            "food_resource_name": "Nourriture",
+            "queen_bee_resource_name": "Reine des abeilles",
+            "jerky_resource_name": "Viande séchée",
+            "water_resource_name": "Eau"
+         },
+         "gm": {
+            "campaigns": {
+               "bees": {
+                  "dialog_nodes": {
+                     "bulletin_message": {
+                        "000": "Il semblerait que votre belle ville ai attiré un essaim d'abeilles .. Ils semblent s'être installés dans cet étrange arbre. Attends une minute, j'aurais juré que cet arbre n'était pas là avant !",
+                        "001": "Peut-être pourrions-nous utiliser cela à notre avantage ?",
+                        "002": "Je pense que nous devrions couper cet arbre pour voir où cela nous mène ! Qu'est ce qui pourrait mal tourner ?!?",
+                        "003": "Oh wow ! Quel chance !",
+                        "004": "Tomber de l'arbre semble les avoir étourdis ! Pouvez-vous imaginer les conséquences si ce n'étaient pas le cas ?",
+                        "005": "Fouillons les débrits pour récolter le fruit de notre travail ! Qu'est-ce qui pourrait mal tourner?!? (Astuce: Sélectionnez les ruches pour les lancer!)",
+                        "006": "Aiiiieeeeee ça fait mal ! Je ne m'attendais pas à ce qu'elles soient si méchantes !!",
+                        "007": "Eh bien, ce n'est qu'un peu de douleur, et une possible Anaphylaxie avec un peu de chance !?",
+                        "008": "Hou la la ! Tu les as vraiment frappé fort... il ne reste plus grand chose...",
+                        "009": "Ne me regarde pas comme ça... Je vais apporter ce que je peux récupérer en ville. À bientôt !",
+                        "010": "J'ai laissé ce que j'ai pû récupérer prêt de ce drapeau, c'est un endroit étrange pour un drapeau, je veux dire regarde, il est juste ridicule ! Bref, je m'égare, tu devrais construire un rucher pour que tout ce dur labeur soit payant"
+                     },
+                     "bulletin_title_001": "Vous entendez un faible bruit de bourdonnement...",
+                     "bulletin_title_002": "The buzzing gets louder....",
+                     "bulletin_title_003": "Le bourdonnement devient plus fort...",
+                     "bulletin_title_004": "C'est encore moi !",
+                     "dialog_title_001": "Un Villageois Utile"
+                  }
+               }
+            }
+         }
+      }
+   },
+   "ai": {
+      "actions": {
+         "status_text": {
+            "drink": "Obtenir une boisson",
+            "drink_item": "Boire [name(data.target)]"
+         }
+      }
+   },
+   "data": {
+      "happiness": {
+         "thoughts": {
+            "thirst": {
+               "values": {
+                  "stuffed": {
+                     "display_name": "Hydraté",
+                     "tooltip": "Impossible de boire une autre goutte !"
+                  },
+                  "thirsty": {
+                     "display_name": "Desséché",
+                     "tooltip": "Un peu assoiffé"
+                  },
+                  "dehydrated": {
+                     "display_name": "Déshydraté",
+                     "tooltip": "Très assoiffé"
+                  }
+               }
+            },
+            "drinking": {
+               "values": {
+                  "drank_unpalatable": {
+                     "display_name": "J'ai bu quelque chose de fade !",
+                     "tooltip": "Boire [str(drinkname)] était incroyablement fade, mais ça a marché."
+                  },
+                  "drank_raw": {
+                     "display_name": "Ah, au moins, ça fait du bien !",
+                     "tooltip": "Ce [str(drinkname)] était un peu fade, mais ça a marché"
+                  },
+                  "drank_prepared": {
+                     "display_name": "J'ai bu une boisson rafraîchissante !",
+                     "tooltip": "Ce [str(drinkname)] était très rafraîchissant. Juste ce dont j'avais besoin !"
+                  },
+                  "drank_tasty": {
+                     "display_name": "J'ai bu une boisson merveilleuse !",
+                     "tooltip": "Wow ! [str(drinkname)] pourrait être ma boisson favorite ! Incroyable !"
+                  }
+               }
+            }
+         }
+      },
+      "buffs": {
+         "well_fed": {
+            "well_fed": {
+               "display_name": "Bien nourri",
+               "description": "Plus de calories vous permettent de travailler plus fort"
+            }
+         },
+         "parched": {
+            "parched": {
+               "display_name": "Desséché",
+               "description": "Très assoiffé"
+            }
+         }
+      },
+      "commands": {
+         "harvest_honey": {
+            "display_name": "Miel de récolte",
+            "description": "Récoltez du miel pour de délicieuses recettes de cuisine",
+            "disabled_description": "Les abeilles sont toujours occupées!"
+         },
+         "harvest_water": {
+            "display_name": "Gather Eau",
+            "description": "Rassemblez de l'eau pour boire et cuisiner des recettes",
+            "disabled_description": "Le seau est toujours plein!"
+         },
+         "smash_beehive": {
+            "display_name": "Smash Ruche",
+            "description": "Continue! Donnez-lui un coup de pied!"
+         }
+      }
+   },
+   "jobs": {
+      "carpenter": {
+         "recipes": {
+            "apiary_recipe": {
+               "recipe_name": "Rucher",
+               "description": "Permet la collecte de miel",
+               "flavor": "Nectar d'or"
+            },
+            "wind_sail_recipe": {
+               "recipe_name": "Coup de Vent ",
+               "description": "Une voile de base",
+               "flavor": "Il y a beaucoup de vent ici ..."
+            },
+            "fishing_rod_recipe": {
+               "recipe_name": "Canne à pêche",
+               "description": "Un outil de base pour attraper du poisson",
+               "flavor": ""
+            },
+            "rickety_well_recipe": {
+               "recipe_name": "Rickety bien",
+               "description": "Une source fragile d'eau propre.",
+               "flavor": "Un maçon pourrait améliorer cela!"
+            },
+            "scarecrow_recipe": {
+               "recipe_name": "Épouvantail",
+               "description": "Pour effrayer les ravageurs"
+            },
+            "cook_sign_recipe": {
+               "recipe_name": "Le signe mural de Cook",
+               "description": "Un signe avec la marque du cuisinier, à placer sur les bâtiments.",
+               "flavor": ""
+            }
+         }
+      },
+      "cook": {
+         "recipes": {
+            "drinks_name": "Boissons",
+            "berry_juice_recipe": {
+               "recipe_name": "Jus de Berry",
+               "description": "Delicious Jus de Berry.",
+               "flavor": "Une boisson rafraîchissante faite de baies mushed."
+            },
+            "berry_pie_recipe": {
+               "recipe_name": "Tarte aux baies",
+               "description": "A Delicious Tarte aux baies.",
+               "flavor": "Une croûte légère remplie de baies mûres"
+            },
+            "pear_juice_recipe": {
+               "recipe_name": "Jus de poire",
+               "description": "Jus délicieux fabriqué à partir de figues de Barbarie.",
+               "flavor": "Une boisson rafraîchissante faite à partir de poires mushed."
+            },
+            "boiled_rice_recipe": {
+               "recipe_name": "Riz bouilli",
+               "description": "Un plat fade mais remplissant",
+               "flavor": ""
+            },
+            "rice_pudding_recipe": {
+               "recipe_name": "Riz au lait",
+               "description": "Un dessert délicieux fait avec du riz et du lait",
+               "flavor": "Les baies mûres ajoutent la touche finale"
+            },
+            "cheese_recipe": {
+               "recipe_name": "Fromage",
+               "description": "Un fromage à pâte mi-dure.",
+               "flavor": "Tout a meilleur goût avec le fromage Grommit!"
+            },
+            "cake_recipe": {
+               "recipe_name": "gâteau",
+               "description": "A Delicious gâteau!",
+               "flavor": "Il y a toujours de la place pour un gâteau .."
+            },
+            "grits_recipe": {
+               "recipe_name": "Gruau",
+               "description": "Un plat à base de maïs Bland.",
+               "flavor": "S'il vous plaît monsieur, puis-je avoir plus ?!"
+            },
+            "honey_berry_wine_recipe": {
+               "recipe_name": "Vin de baies fortifiées au miel",
+               "description": "Delicious Vin de baies fortifiées au miel.",
+               "flavor": "Une boisson rafraîchissante faite de baies mushed. water and honey."
+            },
+            "honey_glazed_critter_recipe": {
+               "recipe_name": "Critter glacé au miel",
+               "description": "Un Critter parfaitement rôti au miel.",
+               "flavor": "Tout a meilleur goût avec Honey, non?"
+            },
+            "meat_and_potato_pie_recipe": {
+               "recipe_name": "Viande et tarte aux pommes de terre",
+               "description": "Une croûte de pâtisserie avec une garniture de viande délicieuse.",
+               "flavor": "Copieux et délicieux"
+            },
+            "meat_pie_recipe": {
+               "recipe_name": "Tourte à la viande",
+               "description": "Une tarte à la viande savoureuse.",
+               "flavor": "Un bac à pâtisserie pour la dernière capture des Trappeurs"
+            },
+            "pig_feed_recipe": {
+               "recipe_name": "Alimentation de porc",
+               "description": "Si c'est comestible, ils le mangeront",
+               "flavor": ""
+            },
+            "yak_feed_recipe": {
+               "recipe_name": "Aliments Yak",
+               "description": "Foin grossièrement coupé, adapté aux Yaks",
+               "flavor": ""
+            },
+            "pottage_recipe": {
+               "recipe_name": "Potage",
+               "description": "Un plat de remplissage à base de légumes et de céréales",
+               "flavor": "Remplissage!"
+            },
+            "pumpkin_pie_recipe": {
+               "recipe_name": "Tarte à la citrouille",
+               "description": "Citrouille et tarte. Qu'est-ce qu'il ne faut pas aimer?",
+               "flavor": "Doux et savoureux"
+            },
+            "pumpkin_soup_recipe": {
+               "recipe_name": "Soupe à la citrouille",
+               "description": "Une bonne soupe à la citrouille",
+               "flavor": "Doux et savoureux"
+            },
+            "roast_critter_recipe": {
+               "recipe_name": "Rôti Critter",
+               "description": "Un Critter parfaitement rôti.",
+               "flavor": "Goûte comme le poulet"
+            },
+            "roast_ham_recipe": {
+               "recipe_name": "Jambon rôti",
+               "description": "Un rôti copieux",
+               "flavor": ""
+            },
+            "roast_beef_recipe": {
+               "recipe_name": "Rôti de bœuf",
+               "description": "Un rôti copieux",
+               "flavor": ""
+            }
+         }
+      },
+      "mason": {
+         "recipes": {
+            "well_recipe": {
+               "recipe_name": "Puits de pierre",
+               "description": "Une source d'eau propre.",
+               "flavor": "Jessica McClure Attention!"
+            }
+         }
+      },
+      "herbalist": {
+         "recipes": {
+            "hedge": {
+               "recipe_name": "Haie",
+               "description": "Une addition parfaite à n'importe quel jardin",
+               "flavor": "Offre sécurité et esthétique"
+            }
+         }
+      },
+      "weaver": {
+         "recipes": {
+            "cook_outfit_2_recipe": {
+               "recipe_name": "Tenue de cuisine de fantaisie",
+               "description": "Une tenue de fantaisie pour un cuisinier de fantaisie!",
+               "flavor": "C'est chic!"
+            }
+         }
+      }
+   },
+   "entities": {
+      "construction": {
+         "apiary": {
+            "apiary": {
+               "description": "Fournit du miel",
+               "display_name": "Rucher"
+            },
+            "apiary_ghost": {
+               "description": "Fournit du miel",
+               "display_name": "Rucher"
+            }
+         },
+         "hedge": {
+            "hedge": {
+               "description": "Fournit la sécurité et l'esthétique",
+               "display_name": "Haie"
+            },
+            "hedge_post": {
+               "description": "Un poste de support pour les haies en croissance",
+               "display_name": "Haie Post"
+            },
+            "growing": {
+               "description": "A Haie in the early stages of growth",
+               "display_name": "Growing Haie"
+            }
+         },
+         "hedge_gate": {
+            "hedge_gate": {
+               "description": "Fournit la sécurité et l'esthétique",
+               "display_name": "Haie"
+            },
+            "hedge_gate_post": {
+               "description": "Un poste de support pour les haies en croissance",
+               "display_name": "Haie Post"
+            },
+            "growing_gate": {
+               "description": "A Haie in the early stages of growth",
+               "display_name": "Growing Haie"
+            }
+         },
+         "well": {
+            "well": {
+               "description": "Une source d'eau propre",
+               "display_name": "Puits de pierre"
+            },
+            "well_ghost": {
+               "description": "Une source d'eau propre",
+               "display_name": "Puits de pierre"
+            }
+         },
+         "rickety_well": {
+            "well": {
+               "description": "Une source d'eau propre",
+               "display_name": "A Rickety bien"
+            },
+            "well_ghost": {
+               "description": "Une source d'eau propre",
+               "display_name": "A Rickety bien"
+            }
+         }
+      },
+      "misc": {
+         "default_object": {
+            "default_object": {
+               "description": "L'objet par défaut de Froggy",
+               "display_name": "Erreur, vous ne devriez pas voir cela dans le jeu"
+            }
+         }
+      },
+      "critters": {
+         "pig": {
+            "description": "Un aspirateur alimentaire à faible entretien",
+            "display_name": "Un cochon",
+            "species": "Porc"
+         },
+         "bees": {
+            "tree_description": "Il semble être bourdonnant ....",
+            "tree_display_name": "Un arbre étrange",
+            "hive_description": "Manipuler avec soin!",
+            "hive_display_name": "Une grande ruche",
+            "queen_description": "♫ She's Your Queeeeeeen to beeeeeee! ♫",
+            "queen_display_name": "Sedated Reine des abeilles",
+            "species": "abeille"
+         },
+         "yak": {
+            "description": "Lent et puant",
+            "milk_description": "Pas prêt pour la traite",
+            "display_name": "Un Yak",
+            "species": "Bovine"
+         }
+      },
+      "decoration": {
+         "wind_sail": {
+            "description": "♫ You spin me right round baby right round..♫",
+            "display_name": "Coup de Vent "
+         },
+         "scarecrow": {
+            "iconic_display_name": "Épouvantail",
+            "iconic_description": "A Épouvantail ready for assembling",
+            "description": "Efface les ravageurs",
+            "display_name": "Épouvantail"
+         }
+      },
+      "food": {
+         "honey_vat": {
+            "honey_vat": {
+               "display_name": "Veau au miel",
+               "description": "Une cuve de miel délicieux",
+               "flavor": "Délicieux!"
+            },
+            "honey_vat_serving": {
+               "display_name": "Tasse de miel",
+               "description": "Une tasse de miel délicieux"
+            }
+         },
+         "water": {
+            "water": {
+               "display_name": "Eau Bucket",
+               "description": "Contient du monoxyde de dihydrogène",
+               "flavor": "Rafraîchissant!"
+            },
+            "water_serving": {
+               "display_name": "Cup of Eau",
+               "description": "Contient du monoxyde de dihydrogène"
+            }
+         },
+         "milk": {
+            "milk": {
+               "display_name": "Vat lait",
+               "description": "Sans conservateurs ajoutés",
+               "flavor": "Rafraîchissant!"
+            },
+            "milk_serving": {
+               "display_name": "Tasse de lait",
+               "description": "Rafraîchissant"
+            }
+         },
+         "berry_juice": {
+            "berry_juice": {
+               "short_display_name": "jus",
+               "display_name": "Jus de Berry",
+               "description": "Delicious Jus de Berry.",
+               "flavor": "Une boisson rafraîchissante faite de baies mushed.and water."
+            },
+            "berry_juice_serving": {
+               "display_name": "A Mug of Jus de Berry",
+               "description": "Delicious Jus de Berry."
+            }
+         },
+         "pear_juice": {
+            "pear_juice": {
+               "display_name": "Jus de poire",
+               "description": "Delicious Jus de poire.",
+               "flavor": "A Rafraîchissant drink made from mushed up Pears."
+            },
+            "pear_juice_serving": {
+               "display_name": "A Mug of Jus de poire",
+               "description": "Delicious Jus de poire."
+            }
+         },
+         "boiled_rice": {
+            "boiled_rice": {
+               "display_name": "Riz bouilli",
+               "description": "Source de base de subsistance",
+               "flavor": "Un plat simple de riz et d'eau"
+            },
+            "boiled_rice_serving": {
+               "display_name": "A Bowl of Riz bouilli",
+               "description": "Fade mais remplissage"
+            }
+         },
+         "cake": {
+            "cake": {
+               "display_name": "gâteau",
+               "description": "A Delicious gâteau",
+               "flavor": ""
+            },
+            "cake_serving": {
+               "display_name": "A Slice of gâteau",
+               "description": "Divin"
+            }
+         },
+         "rice_pudding": {
+            "rice_pudding": {
+               "display_name": "Riz au lait",
+               "description": "Un dessert à base de riz et de lait",
+               "flavor": ""
+            },
+            "rice_pudding_serving": {
+               "display_name": "Riz au lait",
+               "description": "Délicieux avec une cuillerée de confiture"
+            }
+         },
+         "berry_pie": {
+            "berry_pie": {
+               "display_name": "Tarte aux baies",
+               "description": "A Delicious Tarte aux baies.",
+               "flavor": "Une croûte légère remplie de baies mûres"
+            },
+            "berry_pie_serving": {
+               "display_name": "A Slice of Tarte aux baies",
+               "description": "Doux et délicieux"
+            }
+         },
+         "cheese": {
+            "cheese": {
+               "display_name": "Fromage",
+               "description": "Un fromage à pâte mi-dure.",
+               "flavor": "Tout a meilleur goût avec du fromage !"
+            },
+            "cheese_serving": {
+               "display_name": "Une portion de Fromage",
+               "description": "Ringard"
+            }
+         },
+         "grits": {
+            "grits": {
+               "display_name": "Gruau",
+               "description": "Un plat à base de maïs Bland.",
+               "flavor": "S'il vous plaît monsieur, puis-je avoir plus ?!"
+            },
+            "grits_serving": {
+               "display_name": "Bol de gruau",
+               "description": "Une portion de Grits"
+            }
+         },
+         "honey_berry_wine": {
+            "honey_berry_wine": {
+               "display_name": "Vin de Berry Fortifié",
+               "description": "Delicious Vin de baies fortifiées au miel.",
+               "flavor": "Une boisson rafraîchissante faite de baies mushed. water and honey."
+            },
+            "honey_berry_wine_serving": {
+               "display_name": "Une tasse de vin de Berry",
+               "description": "Sweet and Rafraîchissant"
+            }
+         },
+         "honey_glazed_critter": {
+            "honey_glazed_critter": {
+               "display_name": "Glazed Rôti Critter",
+               "description": "Un Critter parfaitement rôti au miel.",
+               "flavor": "Tout a meilleur goût avec Honey, non?"
+            },
+            "honey_glazed_critter_serving": {
+               "display_name": "A Portion of Glazed Rôti Critter",
+               "description": "Goûte comme le poulet."
+            }
+         },
+         "meat_and_potato_pie": {
+            "meat_and_potato_pie": {
+               "display_name": "Viande et tarte aux pommes de terre",
+               "description": "Une croûte de pâtisserie avec une garniture de viande délicieuse.",
+               "flavor": "Copieux et délicieux"
+            },
+            "meat_and_potato_pie_serving": {
+               "display_name": "A Slice of Viande et tarte aux pommes de terre",
+               "description": "Savoureux et copieux."
+            }
+         },
+         "meat_pie": {
+            "meat_pie": {
+               "display_name": "Tourte à la viande",
+               "description": "Une tarte à la viande savoureuse.",
+               "flavor": "Un bac à pâtisserie pour la dernière capture des Trappeurs"
+            },
+            "meat_pie_serving": {
+               "display_name": "A Slice of Tourte à la viande",
+               "description": "Une tarte à la viande savoureuse."
+            }
+         },
+         "yak_feed": {
+            "yak_feed": {
+               "display_name": "Aliments Yak",
+               "description": "Foin grossierement coupé plus approprié pour les Yaks",
+               "flavor": ""
+            },
+            "yak_feed_ground": {
+               "display_name": "Aliments Yak",
+               "description": "Foin grossierement coupé plus approprié pour les Yaks"
+            }
+         },
+         "pig_feed": {
+            "pig_feed": {
+               "display_name": "Alimentation de porc",
+               "description": "Si c'est comestible, ils le mangeront",
+               "flavor": ""
+            },
+            "pig_feed_ground": {
+               "display_name": "Alimentation de porc",
+               "description": "Si c'est comestible, ils le mangeront"
+            }
+         },
+         "pig_meat": {
+            "display_name": "Porc Meat",
+            "description": "Porc succulent"
+         },
+         "yak_meat": {
+            "display_name": "Viande de yack",
+            "description": "Succulent abeillef"
+         },
+         "pumpkin_pie": {
+            "pumpkin_pie": {
+               "display_name": "Tarte à la citrouille",
+               "description": "Meilleur après avoir reposé sur le rebord de la fenêtre",
+               "flavor": "Doux et savoureux"
+            },
+            "pumpkin_pie_serving": {
+               "display_name": "A Slice of Tarte à la citrouille",
+               "description": "Délicieux"
+            }
+         },
+         "pumpkin_soup": {
+            "pumpkin_soup": {
+               "display_name": "Soupe à la citrouille",
+               "description": "Une bonne soupe à la citrouille",
+               "flavor": "Doux et savoureux"
+            },
+            "pumpkin_soup_serving": {
+               "display_name": "A Bowl of Soupe à la citrouille",
+               "description": "Une bonne soupe à la citrouille"
+            }
+         },
+         "pottage": {
+            "pottage": {
+               "display_name": "Potage",
+               "description": "A hearty bowl of Potage",
+               "flavor": "Délicieux"
+            },
+            "pottage_serving": {
+               "display_name": "A Bowl of Potage",
+               "description": "Délicieux"
+            }
+         },
+         "roast_critter": {
+            "roast_critter": {
+               "display_name": "Rôti Critter",
+               "description": "Un Critter parfaitement rôti.",
+               "flavor": "Goûte comme le poulet"
+            },
+            "roast_critter_serving": {
+               "display_name": "A Portion of Rôti Critter",
+               "description": "Un Critter parfaitement rôti."
+            }
+         },
+         "roast_ham": {
+            "roast_ham": {
+               "display_name": "Jambon rôti",
+               "description": "Un rôti copieux",
+               "flavor": ""
+            },
+            "roast_ham_serving": {
+               "display_name": "A Portion of Jambon rôti",
+               "description": "Un rôti copieux"
+            }
+         },
+         "roast_beef": {
+            "roast_beef": {
+               "display_name": "Rôti de bœuf",
+               "description": "Un rôti copieux",
+               "flavor": ""
+            },
+            "roast_beef_serving": {
+               "display_name": "A Portion of Rôti de bœuf",
+               "description": "Un rôti copieux"
+            }
+         }
+      },
+      "plants": {
+         "potato": {
+            "potato_basket": {
+               "display_name": "Panier de pommes de terre",
+               "description": "Prêt pour la cuisson"
+            },
+            "potato_serving": {
+               "display_name": "Une portion de pommes de terre",
+               "description": "Goûte comme les pieds"
+            }
+         },
+         "rice": {
+            "rice_basket": {
+               "display_name": "Un sac de riz",
+               "description": "Prêt pour la cuisson"
+            }
+         }
+      },
+      "crops": {
+         "potato_crop": {
+            "display_name": "Patate",
+            "description": "Aide à avoir la patate !",
+            "growth_stage": {
+               "004": {
+                  "name": "Patate mûre",
+                  "description": "Prêt pour la récolte !"
+               },
+               "001": {
+                  "name": "Graine de Patate",
+                  "description": "Pas encore prêt pour la récolte"
+               },
+               "002": {
+                  "name": "Germe de Patate",
+                  "description": "Pas encore prêt pour la récolte"
+               },
+               "003": {
+                  "name": "Bébé Patate",
+                  "description": "Pas encore prêt pour la récolte"
+               },
+               "007": {
+                  "name": "Patate pourri",
+                  "description": "C'est cuit, c'est mort..."
+               }
+            }
+         },
+         "rice_crop": {
+            "display_name": "Riz",
+            "description": "Nourriture de base simple",
+            "growth_stage": {
+               "005": {
+                  "name": "Riz mûr",
+                  "description": "Prêt pour la récolte !"
+               },
+               "001": {
+                  "name": "Plant de Riz",
+                  "description": "Pas encore prêt pour la récolte"
+               },
+               "002": {
+                  "name": "Plant de Riz",
+                  "description": "Pas encore prêt pour la récolte"
+               },
+               "003": {
+                  "name": "Plant de Riz",
+                  "description": "Pas encore prêt pour la récolte"
+               },
+               "004": {
+                  "name": "Plant de Riz",
+                  "description": "Prêt pour la récolte"
+               },
+               "007": {
+                  "name": "Riz pourri",
+                  "description": "C'est cuit, c'est mort..."
+               }
+            }
+         }
+      }
+   }
+}
